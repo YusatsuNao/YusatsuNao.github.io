@@ -190,10 +190,16 @@ nav ul li:hover .marrow {
     align-content: flex-start;
     align-items: stretch;
 	transition: all 0.25s ease-in 0s; }
+.item1, .item2, .item1:hover, .item2:hover {
+	width: 480px;
+	height: 240px;
+	margin: 5px; }
+/* Code below is only active if .item3 and .item4 in index.html is active
 .item1, .item2, .item3, .item4, .item1:hover, .item2:hover, .item3:hover, .item4:hover {
 	width: 240px;
 	height: 240px;
 	margin: 5px; }
+*/
 .item1 {
 	background: #212121 url("../img/awattpad.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
@@ -208,6 +214,7 @@ nav ul li:hover .marrow {
 .item2:hover {
 	background: transparent url("../img/da.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
+/* Code below is only active if .item3 and .item4 in index.html is active
 .item3 {
 	background: #212121 url("../img/ayoutube.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
@@ -222,6 +229,7 @@ nav ul li:hover .marrow {
 .item4:hover {
 	background: transparent url("../img/pixiv.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
+*/
 .arts {
 	margin: 0px auto;
 	margin-bottom: 20px; 
