@@ -1,6 +1,6 @@
 /* Media Screen Bootstrap 1281 or Higher */
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1900px) {
 	.eirlaneheader {
 		height: 700px;
 		background: rgba(100, 100, 100, 0.50) url("../img/eirlane.png") no-repeat 50% 50% / cover; }
@@ -8,7 +8,7 @@
 		height: 700px;
 		background: rgba(100, 100, 100, 0.50) url("../img/nc.png") no-repeat 50% 50%; } }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
 	.eirlaneheader {
 		height: 400px;
 		background: rgba(100, 100, 100, 0.50) url("../img/eirlane.png") no-repeat 50% 50% / cover; }
@@ -18,7 +18,9 @@
 
 @media only screen and (min-width: 1281px) {
 	#homepage {
-		padding-top:100px; }
+		padding-top: 100px;
+		margin: 0px auto;
+		max-width: 1200px; }
 	.header {
 		float: left; }
 	.navigation {
@@ -48,6 +50,6 @@
 		padding: 10px 0px;
 		position: absolute;
 		top: 50%;
-		max-width: 960px;
+		max-width: 900px;
 		display: inline-block;
 		transform: translate(0px, -50%); } }
