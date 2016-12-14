@@ -1,20 +1,8 @@
 /* Media Screen Bootstrap 1281 or Higher */
 
-@media only screen and (min-width: 1900px) {
-	.eirlaneheader {
-		height: 700px;
-		background: rgba(100, 100, 100, 0.50) url("../img/eirlane.png") no-repeat 50% 50% / cover; }
-	.spheriumheader {
-		height: 700px;
-		background: rgba(100, 100, 100, 0.50) url("../img/nc.png") no-repeat 50% 50%; } }
+@media only screen and (min-width: 1900px) { }
 
-@media only screen and (min-width: 1500px) {
-	.eirlaneheader {
-		height: 400px;
-		background: rgba(100, 100, 100, 0.50) url("../img/eirlane.png") no-repeat 50% 50% / cover; }
-	.spheriumheader {
-		height: 400px;
-		background: rgba(100, 100, 100, 0.50) url("../img/nc.png") no-repeat 50% 50%; } }
+@media only screen and (min-width: 1500px) { }
 
 @media only screen and (min-width: 1281px) {
 	#homepage {

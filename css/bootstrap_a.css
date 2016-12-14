@@ -185,6 +185,10 @@
 			padding-bottom: 25px; }
 		.navigation {
 			padding-bottom: 25px; } }
+			
+@media only screen and (max-width: 480px) {
+		.pc-menu {
+			display: none; } }
 
 @media only screen and (max-width: 405px) {
 		div#profile {
