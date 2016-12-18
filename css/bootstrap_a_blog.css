@@ -1,0 +1,39 @@
+/* Media Screen Bootstrap 1280 or Below */
+
+@media only screen and (max-width: 1280px) {}
+			
+@media only screen and (max-width: 1335px) {}
+
+@media only screen and (max-width: 1315px) {}
+
+@media only screen and (max-width: 1135px) {}
+
+@media only screen and (max-width: 1055px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 795px) {}
+
+@media only screen and (max-width: 720px) {}
+
+@media only screen and (max-width: 700px) {}
+			
+@media only screen and (max-width: 695px) {
+		#main-content-foot {
+			padding: 3rem 3rem; }
+		.post-div {
+			display: block; }
+		#post-title {
+			text-align: center; }
+		.post-title-title {
+			float: none; }
+		.post-title-date {
+			float: none; } }
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {
+		nav ul li {
+			padding-bottom: 10px; }
+		.pc-menu {
+			display: none; } }

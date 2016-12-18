@@ -1,0 +1,58 @@
+/* Media Screen Bootstrap 1281 or Higher */
+
+@media only screen and (min-width: 1281px) {
+	#main-content-body .image {
+		position: absolute;
+		top: 50%;
+		float: left;
+		transform: translate(0px, -50%);
+		overflow: hidden;
+		background: transparent none repeat scroll 0% 0%;
+		cursor: pointer; }
+	#main-content-body1 .image {
+		position: absolute;
+		top: 50%;
+		float: left;
+		transform: translate(0px, -50%);
+		overflow: hidden;
+		background: transparent none repeat scroll 0% 0%;
+		cursor: pointer; }
+	#main-content-body2 .image {
+		position: absolute;
+		top: 50%;
+		float: left;
+		transform: translate(0px, -50%);
+		overflow: hidden;
+		background: transparent none repeat scroll 0% 0%;
+		cursor: pointer; }
+	.theme {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1170px;
+		padding-left: 15px;
+		padding-right: 15px;
+		background-color: transparent; }
+	#main-content-body .about {
+		margin: -10px 0px 0px 130px;
+		padding: 10px 0px;
+		position: absolute;
+		top: 50%;
+		max-width: 960px;
+		display: inline-block;
+		transform: translate(0px, -50%); } }
+	#main-content-body1 .about {
+		margin: -10px 0px 0px 130px;
+		padding: 10px 0px;
+		position: absolute;
+		top: 50%;
+		max-width: 960px;
+		display: inline-block;
+		transform: translate(0px, -50%); } }
+	#main-content-body2 .about {
+		margin: -10px 0px 0px 130px;
+		padding: 10px 0px;
+		position: absolute;
+		top: 50%;
+		max-width: 960px;
+		display: inline-block;
+		transform: translate(0px, -50%); } }
