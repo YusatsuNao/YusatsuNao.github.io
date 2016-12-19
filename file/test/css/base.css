@@ -1,7 +1,8 @@
 /* Base HTML CSS3 */
 
 body {
-	background: transparent url("../img/sig.jpg") no-repeat fixed 50% 0px / cover;
+	width: 100%;
+	background: transparent url("../../yusatsunao.github.io/img/sig.jpg") no-repeat fixed 50% 0px / cover;
 	font-family: "rajdhani", sans-serif; }
 a {
 	text-decoration: none;
