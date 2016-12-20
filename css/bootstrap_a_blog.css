@@ -28,6 +28,8 @@
 		.post-title-title {
 			float: none; }
 		.post-title-date {
+			float: none; }
+		.post-title-author {
 			float: none; } }
 
 @media only screen and (max-width: 535px) {}
@@ -36,4 +38,10 @@
 		nav ul li {
 			padding-bottom: 10px; }
 		.pc-menu {
-			display: none; } }
+			display: none; }
+		.submenu-list-back {
+			float: left;
+			width: 240px; }
+		.submenu-list-head {
+			float: right;
+			width: 240px; } }
