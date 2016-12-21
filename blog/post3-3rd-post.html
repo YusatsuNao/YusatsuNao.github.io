@@ -138,6 +138,24 @@
                 document.getElementById("googleplus").href = "https://plus.google.com/share?url=" + window.location.href;
             </script>
         </div>
+        <div id="main-content-comment">
+            <div id="disqus_thread"></div>
+            <script>
+
+            var disqus_config = function () {
+            this.page.url = 'http://yusatsunao.github.io/blog/post3-3rd-post.html';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'post3-3rd-post'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//yusatsunao.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
         <div id="main-content-foot">
             <a href="../blog.html">GO BACK TO MAIN BLOG PAGE</a>
             <a style="float: left;" href="post2-army-commander-line-theme-released.html">← GO TO THE LAST POST</a>
@@ -148,5 +166,6 @@
             <div><a href="../about/privacy-policy.html">Privacy Policy</a> | <a href="../about/faq-frequently-asked-questions.html">FAQ</a></div>
             <div class="credit">Copyright &#169; 2016 Yusatsu Nao, Powered by <a href="http://github.com/">Github</a></div>
         </footer>
+        <script id="dsq-count-scr" src="//yusatsunao.disqus.com/count.js" async></script>
 	</body>
 </html>
