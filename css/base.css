@@ -2,7 +2,7 @@
 
 body {
 	background: transparent url("../img/sig.jpg") no-repeat fixed 50% 0px / cover;
-	font-family: "rajdhani", sans-serif; }
+	font-family: "PT Sans", sans-serif; }
 a {
 	text-decoration: none;
 	color: #0095FF; }
@@ -14,7 +14,8 @@ img {
 	max-width: 100%; }
 div {
 	transition: all 0.25s ease-in 0s; }
-#restricted { font: 15px Segoe UI;
+#restricted { 
+	font: 15px PT Sans;
 	font-weight: normal;
 	color: #FFFFFF;
 	background: #222222; }
@@ -30,7 +31,7 @@ div {
 	user-select: none; }
 .header h1.title {
 	margin: 0;
-	font: normal bold 30px Calibri;
+	font: normal bold 30px;
 	text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.59);
 	font-size: 30px;
 	color: #fff;
@@ -41,7 +42,7 @@ div {
 	transition: all 0.25s ease-in 0s; }
 .header h2.title {
 	margin: 0;
-	font: normal bold 30px Calibri;
+	font: normal bold 30px;
 	text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.59);
 	font-size: 15px;
 	color: #fff;

@@ -2,7 +2,7 @@
 
 body {
 	background: transparent url("../img/sig.jpg") repeat fixed 50% 0px / cover;
-	font-family: "rajdhani", sans-serif; }
+	font-family: "PT Sans", sans-serif; }
 a {
 	text-decoration: none;
 	color: #000000; }
@@ -17,7 +17,7 @@ div {
 .navigation {
 	margin-top: 30px; }
 h3 {
-	font-family: "rajdhani", sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-weight: 900; }
 nav ul {
 	margin: 0;
