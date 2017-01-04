@@ -22,7 +22,8 @@ h1 {
     color: #159957; }
 h3 {
 	font-family: "PT Sans", sans-serif;
-	font-weight: 500; }
+	font-weight: 500;
+	color: #FFF; }
 nav ul {
 	margin: 0;
 	padding: 0; }
@@ -115,7 +116,7 @@ nav ul li:hover .marrow {
 	margin-top: 0; }
 .main-content img {
 	max-width: 100%; }
-.main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h2, .main-content h4, .main-content h5, .main-content h6 {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	font-weight: 900;
@@ -369,13 +370,13 @@ nav ul li:hover .marrow {
 	max-width: 400px;
 	position: relative;
 	margin: 10% auto;
-	padding: 20px;
+	padding: 10px;
 	border-radius: 10px;
 	text-align: center;
 	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999); }
+	background: -moz-linear-gradient(#808080, #303030);
+	background: -webkit-linear-gradient(#808080, #303030);
+	background: -o-linear-gradient(#808080, #303030); }
 .close {
 	background: #606061;
 	color: #FFFFFF;
