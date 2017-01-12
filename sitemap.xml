@@ -8,97 +8,109 @@
 
 <url>
   <loc>http://yusatsunao.github.io/</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/blog</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/update</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/works</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/about</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/sitemap</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/works/anime-icon</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/works/anime-rainmeter</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/works/line-theme</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/about/privacy-policy</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/about/faq-frequently-asked-questions</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://yusatsunao.github.io/blog/post6-anime-icon-winter-2017-released</loc>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://yusatsunao.github.io/search</loc>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/blog/post5-glowing-fragment-line-theme-released</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/blog/post4-giarlish-number-anime-rainmeter-released</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/blog/post3-3rd-post</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/blog/post2-army-commander-line-theme-released</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://yusatsunao.github.io/blog/post1-new-site-has-been-launched</loc>
-  <lastmod>2017-01-05T14:19:42+00:00</lastmod>
+  <lastmod>2017-01-12T08:58:51+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
