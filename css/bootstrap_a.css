@@ -5,6 +5,10 @@
 		padding-top:0px;
 		margin: 0px auto;
 		max-width: 1200px; }
+	.hl {
+		margin: 0px auto;
+		padding-bottom: 10px;
+		text-align: center; }
 	.logo {
 		margin: 0px auto;
 		padding-bottom: 10px;
@@ -186,16 +190,6 @@
 		.navigation {
 			padding-bottom: 25px; } }
 			
-@media only screen and (max-width: 480px) {
-		.pc-menu {
-			display: none; }
-		.submenu-list-back {
-			float: left;
-			width: 240px; }
-		.submenu-list-head {
-			float: right;
-			width: 240px; } }
-
 @media only screen and (max-width: 405px) {
 		div#profile {
 			height: 350px; }

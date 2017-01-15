@@ -25,14 +25,6 @@
 			display: inline-block;
 			transform: translate(0px, -50%); } }
 			
-@media only screen and (max-width: 1335px) {}
-
-@media only screen and (max-width: 1315px) {}
-
-@media only screen and (max-width: 1135px) {}
-
-@media only screen and (max-width: 1055px) {}
-
 @media only screen and (max-width: 1024px) {
 		.theme {
 			margin-right: 30px;
@@ -41,25 +33,3 @@
 			padding-right: 15px;
 			height:  150px;
 			background-color: transparent; } }
-
-@media only screen and (max-width: 795px) {}
-
-@media only screen and (max-width: 720px) {}
-
-@media only screen and (max-width: 700px) {}
-			
-@media only screen and (max-width: 695px) {}
-
-@media only screen and (max-width: 535px) {}
-
-@media only screen and (max-width: 480px) {
-		.pc-menu {
-			display: none; }
-		.main-content {
-			padding: 1rem 1rem; }		
-		.submenu-list-back {
-			float: left;
-			width: 240px; }
-		.submenu-list-head {
-			float: right;
-			width: 240px; } }
