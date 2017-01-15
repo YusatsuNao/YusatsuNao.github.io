@@ -31,11 +31,11 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: flex-start;
     align-items: stretch;
 	transition: all 0.25s ease-in 0s; }
-.item1, .item2, .item3, .item1:hover, .item2:hover, .item3:hover {
+.item1, .item2, .item3, .item4, .item1:hover, .item2:hover, .item3:hover, .item4:hover {
 	width: 360px;
 	height: 180px;
 	margin: 10px 0px 0px 10px; }
@@ -60,14 +60,14 @@ h3 {
 .item3:hover {
 	background: #000000 url("../img/works/animerainmeter.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
-/*
 .item4 {
-	background: #212121 url("../img/nc.png") no-repeat 50% 50%;
+	background: #212121 url("../img/works/ada.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
 	transition: all 0.25s ease-in 0s; }
 .item4:hover {
-	background: #000000 url("../img/nc.png") no-repeat 50% 50%;
+	background: #000000 url("../img/works/da.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
+/*
 .item5 {
 	background: #212121 url("../img/nc.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
@@ -243,6 +243,8 @@ ul.tab li a:focus, .active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none; }
+.help {
+	text-align: justify; }
 .top-border {
 	max-width: 70rem;
 	padding: 2px 3rem;
