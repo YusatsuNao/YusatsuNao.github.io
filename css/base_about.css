@@ -169,10 +169,15 @@ h3 {
 	margin: 0px auto;
 	font-size: 1.1rem;
 	background: transparent;}
-.contacttitle, .creatortitle, .gametitle {
+.formstitle, .creatortitle, .gametitle {
 	background: #FFFFFF;
 	color: #000000;
 	padding: 10px;
+	margin: 0px auto; }
+.contacttitle {
+	background: #FFFFFF;
+	color: #000000;
+	padding: 10px 10px 15px 60px;
 	margin: 0px auto; }
 .pp-list-1 {
 	background: #000000BB;
