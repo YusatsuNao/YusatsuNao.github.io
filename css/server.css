@@ -2,7 +2,7 @@
 
 /* Body CSS Code */
 body {
-	background: transparent url("../img/sig.jpg") no-repeat fixed 50% 0px / cover;
+	background: transparent url("../img/background/sig.jpg") no-repeat fixed 50% 0px / cover;
 	font-family: "PT Sans", sans-serif; }
 .avatar img {
 	width: 128px;
@@ -171,13 +171,13 @@ code {
 
 /* Contact CSS Code */
 #contact-google-plus {
-    background-image: url('../img/google-plus.jpg');
+    background-image: url('../img/social/google-plus.jpg');
     background-repeat: no-repeat; }
 #contact-facebook {
-    background-image: url('../img/facebook.jpg');
+    background-image: url('../img/social/facebook.jpg');
     background-repeat: no-repeat; }
 #contact-line {
-    background-image: url('../img/line.jpg');
+    background-image: url('../img/social/line.jpg');
     background-repeat: no-repeat; }
 
 /* Footer CSS Code */
