@@ -69,6 +69,11 @@
 
 	<body>
 		<header>
+            <div id="menu"></div>
+            <div class="overlay"></div>
+            <script>
+            $( "#menu" ).load( "file/element.html #sidebarmenu" );
+            </script>
 			<div class="header">
           		<div class="hl">
                 	<img alt="Yusatsu Nao's Logo" src="img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
@@ -83,36 +88,6 @@
 					<li><a class="pc-menu" href="about">ABOUT</a></li>
 				</ul>
 			</nav>
-	        <div id="menu">
-	            <div id="sidebarmenu">
-	                <div class="logo">
-	                    <img alt="Yusatsu Nao's Logo" src="img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
-	                </div>
-	                <div class="menu-list">
-	                    <div id="menu-list-head">
-	                        <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/blog'"><a href="http://yusatsunao.github.io/blog">BLOG</a></div>
-	                        <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/update'"><a href="http://yusatsunao.github.io/update">UPDATE</a></div>
-	                        <div class="menu-list-head" id="menu-works"><a>WORKS</a></div>
-	                        <div class="menu-list-head" id="menu-about"><a>ABOUT</a></div>
-	                        <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/sitemap'"><a href="http://yusatsunao.github.io/sitemap">SITEMAP</a></div>
-	                    </div>
-	                    <div id="menu-sub-works" style="display: none">
-	                        <div class="submenu-list-back" id="submenu-head-works">←</div>
-	                        <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/works'">WORKS</div>
-	                        <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-icon'"><a href="http://yusatsunao.github.io/works/anime-icon">Anime Icon</a></div>
-	                        <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-rainmeter'"><a href="http://yusatsunao.github.io/works/anime-rainmeter">Anime Rainmeter</a></div>
-	                        <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/line-theme'"><a href="http://yusatsunao.github.io/works/line-theme">Line Theme</a></div>
-	                    </div>
-	                    <div id="menu-sub-about" style="display: none">
-	                        <div class="submenu-list-back" id="submenu-head-about">←</div>
-	                        <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/about'">ABOUT</div>
-	                        <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/privacy-policy'"><a href="http://yusatsunao.github.io/about/privacy-policy">Privacy Policy</a></div>
-	                        <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/faq-frequently-asked-questions'"><a href="http://yusatsunao.github.io/about/faq-frequently-asked-questions">FAQ</a></div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	        <div class="overlay"></div>
 		</header>
 		<section id="homepage">
 			<div class="headline">
@@ -120,7 +95,9 @@
 				Saturday, January 14, 2017 <a class="new">NEW</a>. <a href="blog/post7-race-driver-line-theme-released">Click here</a> for more information.
 			</div>
 			<div style="background: #0095FF;" class="divider"></div>
-			<div class="banner1" onClick="location.href='blog/post4-giarlish-number-anime-rainmeter-released'"></div>
+			<div class="banner1" onClick="location.href='blog/post4-giarlish-number-anime-rainmeter-released'">
+				<div class="gradient"></div>
+			</div>
 			<div style="background: #0095FF;" class="divider"></div>
 			<div class="banner2" onClick="location.href='blog/post5-glowing-fragment-line-theme-released'"></div>
 			<div style="background: #0095FF;" class="divider"></div>
@@ -170,7 +147,8 @@
 		</section>
 		<footer>
 			<div><a href="about/privacy-policy">Privacy Policy</a> | <a href="about/faq-frequently-asked-questions">FAQ</a></div>
-			<div class="credit">Copyright &#169; 2016 Yusatsu Nao, Powered by <a href="http://github.com/">Github</a></div>
+			<div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao, Powered by <a href="http://github.com/">Github</a>
+			</div>
 		</footer>
 	</body>
 </html>
