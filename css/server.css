@@ -85,7 +85,7 @@ nav ul li:hover .marrow {
 #sidebarmenu {
 	height: 100%;
 	width: 0;
-	background: #2E2E2E;
+	background: #373737;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -147,7 +147,7 @@ nav ul li:hover .marrow {
 	display: block;
 	min-width: 130px;
 	padding: 10px;
-	background: #2E2E2E;
+	background: #373737;
 	padding: 20px 0px 20px 0px; }
 .submenu-list-body:hover {
 	display: block;
