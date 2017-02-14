@@ -59,6 +59,11 @@
   	</head>
   	<body>
         <header>
+            <div id="menu"></div>
+            <div class="overlay"></div>
+            <script>
+            $( "#menu" ).load( "http://yusatsunao.github.io/file/element.html #sidebarmenu" );
+            </script>
             <div class="header">
                 <div class="avatar">
                     <img alt="author" src="../img/naologo.png" onClick="location.href='http://yusatsunao.github.io/'"/>
@@ -73,36 +78,6 @@
                     </ul>
                 </nav>
             </div>
-            <div id="menu">
-                <div id="sidebarmenu">
-                    <div class="logo">
-                        <img alt="Yusatsu Nao's Logo" src="../img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
-                    </div>
-                    <div class="menu-list">
-                        <div id="menu-list-head">
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/blog'"><a>BLOG</a></div>
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/update'"><a>UPDATE</a></div>
-                            <div class="menu-list-head" id="menu-works"><a>WORKS</a></div>
-                            <div class="menu-list-head" id="menu-about"><a>ABOUT</a></div>
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/sitemap'"><a>SITEMAP</a></div>
-                        </div>
-                        <div id="menu-sub-works" style="display: none">
-                            <div class="submenu-list-back" id="submenu-head-works">←</div>
-                            <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/works'">WORKS</div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-icon'"><a>Anime Icon</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-rainmeter'"><a>Anime Rainmeter</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/line-theme'"><a>Line Theme</a></div>
-                        </div>
-                        <div id="menu-sub-about" style="display: none">
-                            <div class="submenu-list-back" id="submenu-head-about">←</div>
-                            <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/about'">ABOUT</div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/privacy-policy'"><a>Privacy Policy</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/faq-frequently-asked-questions'"><a>FAQ</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="overlay"></div>
         </header>
         <section>
             <div style="background: #0095FF;" class="top-border"></div>
