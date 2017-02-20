@@ -33,6 +33,8 @@ h1 {
     font-size: 15px;
     font-weight: 500;
 	font-family: Open Sans; }
+.fade {
+	opacity: 0; }
 @media screen and (min-width: 64em) {
 	.header {
 	padding: 2rem 6rem; } }
@@ -146,26 +148,26 @@ h1 {
 	max-width: 64rem;
 	padding: 2rem 6rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8);
 	text-align: Justify; }
 .top-border {
 	max-width: 70rem;
 	padding: 2px 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: transparent;}
 #main-content-head {
 	max-width: 70rem;
 	padding: 1rem 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: #212121;}
 #main-content-share {
 	max-width: 76rem;
 	margin: 0px auto;
 	text-align: center;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	height: 80px;
 	background: rgba(255, 255, 255, 0.8); }
 #main-content-comment {
@@ -173,20 +175,20 @@ h1 {
 	padding: 2rem 3rem;
 	margin: 0px auto;
 	text-align: center;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.65); }
 #main-content-foot {
 	max-width: 70rem;
 	padding: 2rem 3rem;
 	margin: 0px auto;
 	text-align: center;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8); }
 .bottom-border {
 	max-width: 70rem;
 	padding: 2px 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: transparent;}
 .blogpostlat {
 	background: #000000;
@@ -231,7 +233,7 @@ h1 {
 	font-size: 15px;
 	text-align: center;
 	color: #0095FF; }
-.post-image {
+#post-image {
 	text-align: center;
 	max-width: 200px; }
 figcaption {
@@ -239,7 +241,7 @@ figcaption {
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.main-content {
 		padding: 2rem 4rem;
-		font-size: 1.1rem; } }
+		font-size: 1rem; } }
 @media screen and (max-width: 42em) {
 	.main-content {
 		padding: 2rem 1rem;

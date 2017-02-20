@@ -1,12 +1,7 @@
 /* Media Screen Bootstrap 1281 or Higher */
 
-@media only screen and (min-width: 1900px) { }
-
-@media only screen and (min-width: 1500px) { }
-
 @media only screen and (min-width: 1281px) {
 	#homepage {
-		padding-top: 100px;
 		margin: 0px auto;
 		max-width: 1200px; }
 	.header {
@@ -41,3 +36,11 @@
 		max-width: 900px;
 		display: inline-block;
 		transform: translate(0px, -50%); } }
+
+@media only screen and (min-width: 1400px) {
+	header {
+		height: 650px; } }
+
+@media only screen and (min-width: 1900px) {
+	header {
+		height: 800px; } }

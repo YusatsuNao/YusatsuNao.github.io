@@ -214,7 +214,7 @@ h3 {
 	max-width: 70rem;
 	padding: 1rem 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8);
 	text-align: Justify; }
 ul.tab {
@@ -249,31 +249,31 @@ ul.tab li a:focus, .active {
 	max-width: 70rem;
 	padding: 2px 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: transparent;}
 #main-content-head {
 	max-width: 70rem;
 	padding: 1rem 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: #212121;}
 #main-content-body {
 	max-width: 72rem;
 	padding: 4rem 2rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8); }
 #main-content-foot {
 	max-width: 72rem;
 	padding: 1rem 2rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8);}
 .bottom-border {
 	max-width: 70rem;
 	padding: 2px 3rem;
 	margin: 0px auto;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	background: transparent;}
 div#main-content-body {
 	position: relative;
@@ -293,7 +293,7 @@ div#main-content-body {
 	margin: 5px; }
 #main-content-body .image img {
 	height: 100%;
-	width: auto; }
+	width: 100%; }
 #main-content-body .about .name {
 	color: #000;
 	font-weight: bolder;
@@ -359,7 +359,7 @@ div#main-content-body {
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.main-content {
 		padding: 2rem 2rem;
-		font-size: 1.1rem; } }
+		font-size: 1rem; } }
 @media screen and (max-width: 42em) {
 	.main-content {
 		padding: 2rem 2rem;
