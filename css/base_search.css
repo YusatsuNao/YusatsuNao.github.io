@@ -7,8 +7,6 @@ a:visited {
 	color: #888888; }
 a:hover {
 	color: #47C2DC; }
-img {
-	max-width: 100%; }
 div {
 	transition: all 0.25s ease-in 0s; }
 .navigation {
@@ -154,7 +152,7 @@ h3 {
 	font-size: 1rem;
 	background: #212121;}
 #searchbox {
-	background-image: url('../img/search.png');
+	background-image: url('../img/icon/search.png');
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
 	font-size: 16px;

@@ -11,8 +11,6 @@
 		<link rel="icon" type="image/png" href="favicon.ico">
 		<link rel="stylesheet" href="css/server.css">
 		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/bootstrap_a.css">
-		<link rel="stylesheet" href="css/bootstrap_b.css">
 		<script src="js/jquery.min.js"></script>
 		<script src="js/sidebar.js"></script>
 		<script src="js/blogfeed.js"></script>
@@ -20,25 +18,25 @@
 			day=new Date()     //..get the date
 			x=day.getHours()    //..get the hour
 			if(x>=0 && x<5) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/night.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header { background: transparent url(img/background/night.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			} else
 			if(x>=5 && x<7) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/sunrise.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header  {background: transparent url(img/background/sunrise.jpg) fixed no-repeat 50% 50% / cover; }</style>')
 			} else
 			if(x>=7 && x<11) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/morning.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header { background: transparent url(img/background/morning.jpg) fixed no-repeat 50% 50% / cover; }</style>')
 			} else
 			if (x>=11 && x<16) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/noon.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header { background: transparent url(img/background/noon.jpg) fixed no-repeat 50% 50% / cover; }</style>')
 			}
 			if (x>=16 && x<19) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/sunset.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header { background: transparent url(img/background/sunset.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			}
 			if (x>=19 && x<22) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/evening.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header { background: transparent url(img/background/evening.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			}
 			if (x>=22 && x<24) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/night.jpg) fixed no-repeat 50% 50% / cover;}</style>')
+			document.write('<style type="text/css">header { background: transparent url(img/background/night.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			}
 		</script> 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -159,41 +157,16 @@
 					</div>
 				</div>
 			</div>
-			<div style="background: #0095FF;" class="divider"></div>
-			<div class="banner1" onClick="location.href='blog/post4-giarlish-number-anime-rainmeter-released'"></div>
-			<div style="background: #0095FF;" class="divider"></div>
-			<div class="banner2" onClick="location.href='blog/post5-glowing-fragment-line-theme-released'"></div>
-			<div style="background: #0095FF;" class="divider"></div>
-			<div class="banner3" onClick="location.href='blog/post6-anime-icon-winter-2017-released'"></div>
-			<div style="background: #0095FF;" class="divider"></div>
-			<div class="banner4" onClick="location.href='blog/post7-race-driver-line-theme-released'"></div>
-			<div style="background: #0095FF;" class="divider"></div>
-			<div class="ynlinks" style="display: none;">
-				<div class="item">
-					<div class="item1" onClick="location.href=''"></div>
-					<div class="item2" onClick="location.href=''"></div>
-					<div class="item3" onClick="location.href=''"></div>
-					<div class="item4" onClick="location.href=''"></div>
-				</div>
-			</div>
-			<div class="update">
-				<div class="latestarts" style="display: none;">Featured Arts from DeviantArt</div>
-				<div class="art" style="display: none; padding-bottom: 20px;">
-					<div class="arts">
-						<div class="art1"></div>
-						<div class="art2"></div>
-						<div class="art3"></div>
-						<div class="art4"></div>
-						<div class="art5"></div>
-					</div>
-				</div>
-				<div class="latestvideos" style="display: none;">Featured Videos from Youtube</div>
-				<div class="video" style="display: none; padding-bottom: 20px;">
-					<div class="videos">
-						<div class="video1"></div>
-						<div class="video2"></div>
-					</div>
-				</div>
+			<div id="banner">
+				<div class="divider"></div>
+				<div class="banner1" onClick="location.href='blog/post4-giarlish-number-anime-rainmeter-released'"></div>
+				<div class="divider"></div>
+				<div class="banner2" onClick="location.href='blog/post5-glowing-fragment-line-theme-released'"></div>
+				<div class="divider"></div>
+				<div class="banner3" onClick="location.href='blog/post6-anime-icon-winter-2017-released'"></div>
+				<div class="divider"></div>
+				<div class="banner4" onClick="location.href='blog/post7-race-driver-line-theme-released'"></div>
+				<div class="divider"></div>
 			</div>
 			<div id="profile">
 				<div class="profile">

@@ -7,8 +7,6 @@ a:visited {
 	color: #888888; }
 a:hover {
 	color: #47C2DC; }
-img {
-	max-width: 100%; }
 div {
 	transition: all 0.25s ease-in 0s; }
 .navigation {
