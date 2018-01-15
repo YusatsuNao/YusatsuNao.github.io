@@ -1,0 +1,13 @@
+var blog001 = '{ "title":"New site has been launched", "date":"December 2015", "link":"post1-new-site-has-been-launched" }';
+var blog002 = '{ "title":"LINE THEME - Army Commander Released", "date":"Saturday, October 29, 2016", "link":"post2-army-commander-line-theme-released" }';
+var blog003 = '{ "title":"3rd Post", "date":"Friday, December 2, 2016", "link":"post3-3rd-post" }';
+var blog004 = '{ "title":"Gi(a)rlish Number Anime Rainmeter Released", "date":"Wednesday, December 7, 2016", "link":"post4-giarlish-number-anime-rainmeter-released" }';
+var blog005 = '{ "title":"LINE THEME - Glowing Fragment Released", "date":"Thursday, January 5, 2017", "link":"post5-glowing-fragment-line-theme-released" }';
+var blog006 = '{ "title":"Anime Icon Winter 2017 Released", "date":"Thursday, January 12, 2017", "link":"post6-anime-icon-winter-2017-released" }';
+var blog007 = '{ "title":"LINE THEME - Race Driver Released", "date":"Saturday, January 14, 2017", "link":"post7-race-driver-line-theme-released" }';
+var blog008 = '{ "title":"Welcome to my New Domain", "date":"Monday, March 20, 2017", "link":"post8-welcome-to-my-new-domain" }';
+var blog009 = '{ "title":"Anime Icon Spring 2017 Released", "date":"Tuesday, May 2, 2017", "link":"post9-anime-icon-spring-2017-released" }';
+var blog010 = '{ "title":"LINE THEME - Glowing Fragment Ground Zero Released", "date":"Wednesday, June 21, 2017", "link":"post10-glowing-fragment-ground-zero-line-theme-released" }';
+var blog011 = '{ "title":"LINE THEME - Glowing Fragment Scarlet Land Released", "date":"Saturday, July 22, 2017", "link":"post11-glowing-fragment-scarlet-land-line-theme-released" }';
+var blog012 = '{ "title":"New Line Theme with Low Price", "date":"Wednesday, January 10, 2018", "link":"post12-new-line-theme-with-low-price" }';
+var blog999 = '{ "title":"", "date":"", "link":"" }';

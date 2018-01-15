@@ -12,51 +12,10 @@
         <meta name="og:image" content="http://yusatsunao.github.io/img/banner/bannerblog.jpg"/>
         <meta name="og:site_name" content="Yusatsu Nao"/>
         <meta name="og:description" content="New site has been launched. Welcome, welcome guys to my official site. Thank you to you all for visiting my site here."/>
-        <meta name="copyright" content="Copyright &#169; 2016 Yusatsu Nao, Powered by Github">
+        <meta name="copyright" content="Copyright 2016 Yusatsu Nao">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/server.css">
     	<link rel="stylesheet" href="../css/base_blog.css">
-        <link rel="stylesheet" href="../css/bootstrap_a_blog.css">
-        <link rel="stylesheet" href="../css/share.css">
-        <script src="../js/jquery.min.js"></script>
-        <script src="../js/sidebar.js"></script>
-	<meta http-equiv="refresh" content="1; url=http://yusatsunao.com/" />
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-        <script>
-        $(document).ready(function(){
-            $("#menu-works").click(function(){
-                $("#menu-list-head").hide();
-                $("#menu-sub-works").show();
-            });
-        });
-        $(document).ready(function(){
-            $("#menu-about").click(function(){
-                $("#menu-list-head").hide();
-                $("#menu-sub-about").show();
-            });
-        });
-        $(document).ready(function(){
-            $("#submenu-head-works").click(function(){
-                $("#menu-list-head").show();
-                $("#menu-sub-works").hide();
-            });
-        });
-        $(document).ready(function(){
-            $("#submenu-head-about").click(function(){
-                $("#menu-list-head").show();
-                $("#menu-sub-about").hide();
-            });
-        });
-        </script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-49591484-2', 'auto');
-            ga('send', 'pageview');
-        </script>
   	</head>
   	<body>
         <header>
@@ -68,42 +27,67 @@
                     <ul>
                         <li><a href="#menu" class="menu">MENU</a></li>
                         <li><a style="border-bottom: 4px solid #0095FF; color: #0095FF;">BLOG</a></li>
-                        <li><a class="pc-menu" href="../update">UPDATE</a></li>
                         <li><a class="pc-menu" href="../works">WORKS</a></li>
                         <li><a class="pc-menu" href="../about">ABOUT</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div id="menu">
-                <div id="sidebarmenu">
-                    <div class="logo">
-                        <img alt="Yusatsu Nao's Logo" src="../img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
-                    </div>
-                    <div class="menu-list">
-                        <div id="menu-list-head">
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/blog'"><a>BLOG</a></div>
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/update'"><a>UPDATE</a></div>
-                            <div class="menu-list-head" id="menu-works"><a>WORKS</a></div>
-                            <div class="menu-list-head" id="menu-about"><a>ABOUT</a></div>
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/sitemap'"><a>SITEMAP</a></div>
+                <div id="menu">
+                    <div id="sidebarmenu">
+                        <div class="logo">
+                            <img alt="Yusatsu Nao's Logo" src="http://yusatsunao.github.io/img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
                         </div>
-                        <div id="menu-sub-works" style="display: none">
-                            <div class="submenu-list-back" id="submenu-head-works">←</div>
-                            <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/works'">WORKS</div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-icon'"><a>Anime Icon</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-rainmeter'"><a>Anime Rainmeter</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/line-theme'"><a>Line Theme</a></div>
-                        </div>
-                        <div id="menu-sub-about" style="display: none">
-                            <div class="submenu-list-back" id="submenu-head-about">←</div>
-                            <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/about'">ABOUT</div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/privacy-policy'"><a>Privacy Policy</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/faq-frequently-asked-questions'"><a>FAQ</a></div>
+                        <div class="sidebar">
+                            <div id="leftside-navigation" class="nano">
+                                <ul>
+                                    <li>
+                                        <a href="http://yusatsunao.github.io/eirlane">
+                                            <span>EIRLANE</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://yusatsunao.github.io/log">
+                                            <span>LOG</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">
+                                            <span>BLOG</span>
+                                        </a>
+                                        <ul id="blog-sub">
+                                            <li><a href="http://yusatsunao.github.io/blog">BLOG</a></li>
+                                            <li><a href="http://yusatsunao.github.io/blog/search">SEARCH</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">
+                                            <span>WORKS</span>
+                                        </a>
+                                        <ul id="works-sub">
+                                            <li><a href="http://yusatsunao.github.io/works">WORKS</a></li>
+                                            <li><a href="http://yusatsunao.github.io/works/anime-icon">ANIME ICON</a></li>
+                                            <li><a href="http://yusatsunao.github.io/works/anime-rainmeter">ANIME RAINMETER</a></li>
+                                            <li><a href="http://yusatsunao.deviantart.github.io/">DEVIANTART</a></li>
+                                            <li><a href="http://yusatsunao.github.io/works/line-theme">LINE THEME</a></li>
+                                            <li><a href="http://wattpad.github.io/yusatsunao">WATTPAD</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">
+                                            <span>ABOUT</span>
+                                        </a>
+                                        <ul id="about-sub">
+                                            <li><a href="http://yusatsunao.github.io/about">ABOUT</a></li>
+                                            <li><a href="http://yusatsunao.github.io/about/privacy-policy">PRIVACY POLICY</a></li>
+                                            <li><a href="http://yusatsunao.github.io/about/faq-frequently-asked-questions">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
-            <div class="overlay"></div>
         </header>
         <section>
             <div style="background: #0095FF;" class="top-border"></div>
@@ -135,6 +119,9 @@
                     <div class="share-googleplus">
                         <a class="icon-googleplus" id="googleplus" href="#" target="_blank"></a>
                     </div>
+                    <div class="share-line">
+                        <div class="line-it-button" data-lang="en" data-type="share-a" data-url="http://yusatsunao.github.io/blog/post1-new-site-has-been-launched" style="display: none;"></div>
+                    </div>
                 </div>
                 <script type="text/javascript">
                     document.getElementById("facebook").href = "http://www.facebook.com/sharer.php?u=" + window.location.href;
@@ -145,6 +132,8 @@
                 <script type="text/javascript">
                     document.getElementById("googleplus").href = "https://plus.google.com/share?url=" + window.location.href;
                 </script>
+                <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+                <script type="text/javascript">LineIt.loadButton();</script>
             </div>
             <div id="main-content-comment">
                 <div id="disqus_thread"></div>
@@ -172,7 +161,23 @@
         </section>
         <footer>
             <div><a href="../about/privacy-policy">Privacy Policy</a> | <a href="../about/faq-frequently-asked-questions">FAQ</a></div>
-            <div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao, Powered by <a href="http://github.com/">Github</a></div>
+            <div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
         </footer>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/sidebar.js"></script>
+        <script>
+            $("#leftside-navigation .sub-menu > a").click(function(e) {
+                $("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(), e.stopPropagation()
+            })
+        </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-92676139-1', 'auto');
+            ga('send', 'pageview');
+        </script>
 	</body>
 </html>

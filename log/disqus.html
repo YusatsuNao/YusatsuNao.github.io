@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Disqus Log</title>
+		<meta name="author" content="Yusatsu Nao">
+		<meta name="Description" content="Yusatsu Nao's Disqus log page">
+		<meta name="Keywords" content="Yusatsu Nao's Disqus log page">
+		<meta name="copyright" content="Copyright &#169; Yusatsu Nao">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="http://yusatsunao.github.io/img/naologo.png">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/sidebar.js"></script>
+		<style type="text/css">
+		body {
+			display: block;
+			height: 100%;
+			width: 100%;
+			margin: 0 auto;
+			overflow: hidden;
+			background-color: #777;
+			position: fixed;
+			padding: 0em;
+			background-color: #919191;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 1.75em;
+			font-family: 'Bellefair', serif; }
+		* {
+			box-sizing: border-box; }
+		div {
+			transition: all 0.25s ease 0s; }
+		</style>
+	</head>
+<body>
+	<div id="menu">
+		<div id="sidebarmenu">
+			<div class="logo">
+				<img alt="Yusatsu Nao's Logo" src="http://yusatsunao.github.io/img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
+			</div>
+			<div class="sidebar">
+				<div id="leftside-navigation" class="nano">
+					<ul>
+						<li>
+							<a href="http://yusatsunao.github.io/log">
+								<span>Introduction / ホーム</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://yusatsunao.github.io/log/contents">
+								<span>Contents / コンテン</span>
+							</a>
+						</li>
+						<li class="sub-menu">
+							<a href="javascript:void(0);">
+								<span>Random Log & Story ※</span>
+							</a>
+							<ul id="story-sub-1">
+								<li>
+									<a href="story_1_home">Home</a>
+								</li>
+							</ul>
+						</li>
+						<li class="sub-menu">
+							<a href="javascript:void(0);">
+								<span>当ても無い記録と物語 ※</span>
+							</a>
+							<ul id="story-sub-2">
+								<li>
+									<a href="story_2_home">ホーム</a>
+								</li>
+							</ul>
+						</li>
+						<li class="sub-menu">
+							<a href="javascript:void(0);">
+								<span>Catatan dan Cerita ※</span>
+							</a>
+							<ul id="story-sub-3">
+								<li>
+									<a href="story_3_home">Utama</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<section>
+		<article class="book-reader">
+			<input type="checkbox" id="fullscreen">
+			<label for="fullscreen"></label>
+			<input type="checkbox" id="invert">
+			<label for="invert"></label>
+			<header>
+				<h1>Server Log</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="http://yusatsunao.github.io/">Previous</a></li>
+					<li><a href="#menu" class="menu">Contents</a></li>
+					<li><a href="contents">Next</a></li>
+				</ul>
+			</nav>
+			<section>
+			    <div class="page">
+					<h1>Disqus Log</h1>
+						<div id="disqus_thread"></div>
+						<script>
+
+						var disqus_config = function () {
+						this.page.url = 'http://yusatsunao.github.io/log/disqus';  // Replace PAGE_URL with your page's canonical URL variable
+						this.page.identifier = 'disqus'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+						};
+
+						(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = '//yusatsunao.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				</div>
+			</section>
+		</article>
+		</section>
+        <script>
+            $("#leftside-navigation .sub-menu > a").click(function(e) {
+                $("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(), e.stopPropagation()
+            })
+        </script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-92676139-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>

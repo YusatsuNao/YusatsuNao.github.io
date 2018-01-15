@@ -1,143 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<meta http-equiv="refresh" content="1; url=http://yusatsunao.com/" />
         <meta charset="utf-8">
         <title>Line Theme - Works - Yusatsu Nao - Official Site</title>
         <meta name="author" content="Yusatsu Nao">
         <meta name="Description" content="Yusatsu Nao's Official Site. Line Theme Page, in this page I share line theme I create and sell it.">
         <meta name="Keywords" content="Yusatsu Nao, Yusatsu, Nao, Yusatsu Nao Official Site, Fukumura Tatsuya,Anime,Rainmter,Icons,Windows,LINE,Theme,Sticker,LINE THEME,LINE Sticker,Anime Rainmeter,Anime Icons,Creator">
-        <meta name="copyright" content="Copyright &#169; 2016 Yusatsu Nao, Powered by Github">
+        <meta name="copyright" content="Copyright &#169; Yusatsu Nao">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/server.css">
     	<link rel="stylesheet" href="../css/base_works.css">
-        <link rel="stylesheet" href="../css/bootstrap_a_works.css">
-        <link rel="stylesheet" href="../css/bootstrap_b_works.css">
-        <script src="../js/jquery.min.js"></script>
-        <script src="../js/sidebar.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-        <script>
-        $(document).ready(function(){
-            $("#menu-works").click(function(){
-                $("#menu-list-head").hide();
-                $("#menu-sub-works").show();
-            });
-        });
-        $(document).ready(function(){
-            $("#menu-about").click(function(){
-                $("#menu-list-head").hide();
-                $("#menu-sub-about").show();
-            });
-        });
-        $(document).ready(function(){
-            $("#submenu-head-works").click(function(){
-                $("#menu-list-head").show();
-                $("#menu-sub-works").hide();
-            });
-        });
-        $(document).ready(function(){
-            $("#submenu-head-about").click(function(){
-                $("#menu-list-head").show();
-                $("#menu-sub-about").hide();
-            });
-        });
-        </script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <style type="text/css">
+            #main-content-body {
+                max-width: 76rem;
+                padding: 0rem 0rem;
+                margin: 0px auto;
+                font-size: 1.1rem;
+                background: rgba(255, 255, 255, 0.8);
+                min-height: 500px; }
+            #coins {
+                background-image: url(../img/icon/lc.png);
+                background-position: left center;
+                background-repeat: no-repeat;
 
-            ga('create', 'UA-49591484-2', 'auto');
-            ga('send', 'pageview');
-        </script>
+                padding-left: 20px; /* Or size of icon + spacing */ }
+        </style>
   	</head>
   	<body>
         <header>
             <div class="header">
                 <div class="avatar">
-                    <img alt="author" src="../img/naologo.png" onClick="location.href='http://yusatsunao.github.io/'"/>
+                    <img alt="author" src="../img/naologo.png" onClick="location.href='http://yusatsunao.com/'"/>
                 </div>
                 <nav class="navigation">
                     <ul>
                         <li><a href="#menu" class="menu">MENU</a></li>
                         <li><a class="pc-menu" href="../blog">BLOG</a></li>
-                        <li><a class="pc-menu" href="../update">UPDATE</a></li>
-                        <li><a style="border-bottom: 4px solid #0095FF; color: #0095FF;">WORKS - LINE THEME</a></li>
+                        <li><a style="border-bottom: 4px solid #0095FF; color: #0095FF;">WORKS</a></li>
                         <li><a class="pc-menu" href="../about">ABOUT</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div id="menu">
-                <div id="sidebarmenu">
-                    <div class="logo">
-                        <img alt="Yusatsu Nao's Logo" src="../img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
-                    </div>
-                    <div class="menu-list">
-                        <div id="menu-list-head">
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/blog'"><a>BLOG</a></div>
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/update'"><a>UPDATE</a></div>
-                            <div class="menu-list-head" id="menu-works"><a>WORKS</a></div>
-                            <div class="menu-list-head" id="menu-about"><a>ABOUT</a></div>
-                            <div class="menu-list-head" onClick="location.href='http://yusatsunao.github.io/sitemap'"><a>SITEMAP</a></div>
+                <div id="menu">
+                    <div id="sidebarmenu">
+                        <div class="logo">
+                            <img alt="Yusatsu Nao's Logo" src="http://yusatsunao.github.io/img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
                         </div>
-                        <div id="menu-sub-works" style="display: none">
-                            <div class="submenu-list-back" id="submenu-head-works">←</div>
-                            <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/works'">WORKS</div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-icon'"><a>Anime Icon</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/anime-rainmeter'"><a>Anime Rainmeter</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/works/line-theme'"><a>Line Theme</a></div>
-                        </div>
-                        <div id="menu-sub-about" style="display: none">
-                            <div class="submenu-list-back" id="submenu-head-about">←</div>
-                            <div class="submenu-list-head" onClick="location.href='http://yusatsunao.github.io/about'">ABOUT</div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/privacy-policy'"><a>Privacy Policy</a></div>
-                            <div class="submenu-list-body" onClick="location.href='http://yusatsunao.github.io/about/faq-frequently-asked-questions'"><a>FAQ</a></div>
+                        <div class="sidebar">
+                            <div id="leftside-navigation" class="nano">
+                                <ul>
+                                    <li>
+                                        <a href="http://yusatsunao.github.io/eirlane">
+                                            <span>EIRLANE</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://yusatsunao.github.io/log">
+                                            <span>LOG</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">
+                                            <span>BLOG</span>
+                                        </a>
+                                        <ul id="blog-sub">
+                                            <li><a href="http://yusatsunao.github.io/blog">BLOG</a></li>
+                                            <li><a href="http://yusatsunao.github.io/blog/search">SEARCH</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">
+                                            <span>WORKS</span>
+                                        </a>
+                                        <ul id="works-sub">
+                                            <li><a href="http://yusatsunao.github.io/works">WORKS</a></li>
+                                            <li><a href="http://yusatsunao.github.io/works/anime-icon">ANIME ICON</a></li>
+                                            <li><a href="http://yusatsunao.github.io/works/anime-rainmeter">ANIME RAINMETER</a></li>
+                                            <li><a href="http://yusatsunao.deviantart.github.io/">DEVIANTART</a></li>
+                                            <li><a href="http://yusatsunao.github.io/works/line-theme">LINE THEME</a></li>
+                                            <li><a href="http://wattpad.github.io/yusatsunao">WATTPAD</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">
+                                            <span>ABOUT</span>
+                                        </a>
+                                        <ul id="about-sub">
+                                            <li><a href="http://yusatsunao.github.io/about">ABOUT</a></li>
+                                            <li><a href="http://yusatsunao.github.io/about/privacy-policy">PRIVACY POLICY</a></li>
+                                            <li><a href="http://yusatsunao.github.io/about/faq-frequently-asked-questions">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
-            <div class="overlay"></div>
         </header>
         <section>
             <div style="background: #00B900;" class="top-border"></div>
         	<div style='background: #00B900 url("../img/works/linetheme.png") no-repeat 50% 50%; height: 100px;' id="main-content-head"></div>
             <div id="main-content-body">
-                <div class="theme" id="theme1">
-                    <div class="image">
-                        <img alt="image" src="../img/works/linetheme-1.png"/>
+                <div class="theme">
+                    <ul class="tab">
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'on')" id="defaultOpen">Available</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'all')">All Themes</a></li>
+                        <li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'off')">Not Available</a></li>
+                    </ul>
+                    <div id="on" class="tabcontent">
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-3.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Race Driver</h3>
+                                <h4 class="summary">We are the driver, go race, win the race and go around the world.</h4>
+                                <b><span id="coins">150 Coins</span></b> ( All Regions )
+                                <br/>
+                                <a href="#qrcode3">Scan the QR Code</a>  |  <a href="https://goo.gl/BntWnL">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-4.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Ground Zero</h3>
+                                <h4 class="summary">The lost fragment is now changed, what effect this fragment have, no one knows.</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode4">Scan the QR Code</a>  |  <a href="https://goo.gl/AYChVe">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-5.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Scarlet Land</h3>
+                                <h4 class="summary">Scarlet the bright red, will blossom the passion of the mysterious power from the future to this dark land.</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode5">Scan the QR Code</a>  |  <a href="https://goo.gl/MmZhTJ">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-6.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Gold Break</h3>
+                                <h4 class="summary">The fragment of gold that holds a high rarity gem in world.</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode6">Scan the QR Code</a>  |  <a href="https://goo.gl/SGRcWz">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-7.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 ゴールドブレーク</h3>
+                                <h4 class="summary">世界に高い希少性を持つ金の欠片</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode7">QR コード</a>  |  <a href="https://goo.gl/frmhfB">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-8.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 グランドゼロ</h3>
+                                <h4 class="summary">失った欠片は今変わった、何の効力、誰も知らない</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode8">QR コード</a>  |  <a href="https://goo.gl/yVRXsG">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-9.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 スカーレットランド</h3>
+                                <h4 class="summary">明るい赤色のスカーレットは、未来の神秘的な力の情熱をこの暗い土地に咲かせます</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode9">QR コード</a>  |  <a href="https://goo.gl/ciwnGi">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-10.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Amethyst</h3>
+                                <h4 class="summary">Broken Amethyst that become a light is shining this dark world</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode10">Scan the QR Code</a>  |  <a href="https://goo.gl/s2kB4X">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-11.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 アメジスト</h3>
+                                <h4 class="summary">光になった壊れたアメジストはこの暗い世界を照らす</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode11">QR コード</a>  |  <a href="https://goo.gl/yQ7eWW">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-12.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Chrome</h3>
+                                <h4 class="summary">he color of silver is shining this world to a bright future</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode12">Scan the QR Code</a>  |  <a href="https://goo.gl/u6WzPi">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-13.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 クロム</h3>
+                                <h4 class="summary">この銀の欠片は明るい未来へこの世界を照らす</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode13">QR コード</a>  |  <a href="https://goo.gl/1a7jnE">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-14.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Blue Space</h3>
+                                <h4 class="summary">The new hope is begin, to find a new life in universe</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode14">Scan the QR Code</a>  |  <a href="https://goo.gl/K3nBjz">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-15.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 ブルースペース</h3>
+                                <h4 class="summary">新しい希望が始まる、宇宙に生命を探す</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode15">QR コード</a>  |  <a href="https://goo.gl/mFFMWd">着せかえショップ →</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="about">
-                        <h3>Army Commander</h3>
-                        <h4 class="summary">You like military things? here, you as commander ready to command your army.</h4>
-                        <br/>
-                        <a href="#qrcode1">Scan the QR Code</a>  |  <a href="https://goo.gl/88P2CP">Visit the store →</a>
+                    <div id="all" class="tabcontent">
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-1.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Army Commander</h3>
+                                <h4 class="summary">You like military things? here, you as commander ready to command your army.</h4>
+                                <b><span id="coins" class="price" >Not Available</span></b>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-2.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment</h3>
+                                <h4 class="summary">Dark world with glow of the lost fragment that coming from future world.</h4>
+                                <b><span id="coins" class="price">Not Available</span></b>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-3.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Race Driver</h3>
+                                <h4 class="summary">We are the driver, go race, win the race and go around the world.</h4>
+                                <b><span id="coins">150 Coins</span></b>
+                                <br/>
+                                <a href="#qrcode3">Scan the QR Code</a>  |  <a href="https://goo.gl/BntWnL">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-4.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Ground Zero</h3>
+                                <h4 class="summary">The lost fragment is now changed, what effect this fragment have, no one knows.</h4>
+                                <b><span id="coins">50 Coins</span></b>
+                                <br/>
+                                <a href="#qrcode4">Scan the QR Code</a>  |  <a href="https://goo.gl/AYChVe">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-5.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Scarlet Land</h3>
+                                <h4 class="summary">Scarlet the bright red, will blossom the passion of the mysterious power from the future to this dark land.</h4>
+                                <b><span id="coins">50 Coins</span></b>
+                                <br/>
+                                <a href="#qrcode5">Scan the QR Code</a>  |  <a href="https://goo.gl/MmZhTJ">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-6.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Gold Break</h3>
+                                <h4 class="summary">The fragment of gold that holds a high rarity gem in world.</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode6">Scan the QR Code</a>  |  <a href="https://goo.gl/SGRcWz">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-7.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 ゴールドブレーク</h3>
+                                <h4 class="summary">世界に高い希少性を持つ金の欠片</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode7">QR コード</a>  |  <a href="https://goo.gl/frmhfB">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-8.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 グランドゼロ</h3>
+                                <h4 class="summary">失った欠片は今変わった、何の効力、誰も知らない</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode8">QR コード</a>  |  <a href="https://goo.gl/yVRXsG">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-9.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 スカーレットランド</h3>
+                                <h4 class="summary">明るい赤色のスカーレットは、未来の神秘的な力の情熱をこの暗い土地に咲かせます</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode9">QR コード</a>  |  <a href="https://goo.gl/ciwnGi">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-10.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Amethyst</h3>
+                                <h4 class="summary">Broken Amethyst that become a light is shining this dark world</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode10">Scan the QR Code</a>  |  <a href="https://goo.gl/s2kB4X">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-11.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 アメジスト</h3>
+                                <h4 class="summary">光になった壊れたアメジストはこの暗い世界を照らす</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode11">QR コード</a>  |  <a href="https://goo.gl/yQ7eWW">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-12.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Chrome</h3>
+                                <h4 class="summary">he color of silver is shining this world to a bright future</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode12">Scan the QR Code</a>  |  <a href="https://goo.gl/u6WzPi">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-13.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 クロム</h3>
+                                <h4 class="summary">この銀の欠片は明るい未来へこの世界を照らす</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode13">QR コード</a>  |  <a href="https://goo.gl/1a7jnE">着せかえショップ →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-14.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment Blue Space</h3>
+                                <h4 class="summary">The new hope is begin, to find a new life in universe</h4>
+                                <b><span id="coins">50 Coins</span></b> ( All Regions except Japan )
+                                <br/>
+                                <a href="#qrcode14">Scan the QR Code</a>  |  <a href="https://goo.gl/K3nBjz">Visit the store →</a>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-15.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>輝く欠片 ブルースペース</h3>
+                                <h4 class="summary">新しい希望が始まる、宇宙に生命を探す</h4>
+                                <b><span id="coins">150 Coins</span></b> ( 日本でのみ )
+                                <br/>
+                                <a href="#qrcode15">QR コード</a>  |  <a href="https://goo.gl/mFFMWd">着せかえショップ →</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div id="main-content-body">
-                <div class="theme" id="theme2">
-                    <div class="image">
-                        <img alt="image" src="../img/works/linetheme-2.png"/>
-                    </div>
-                    <div class="about">
-                        <h3>Glowing Fragment</h3>
-                        <h4 class="summary">Dark world with glow of the lost fragment that coming from future world.</h4>
-                        <br/>
-                        <a href="#qrcode2">Scan the QR Code</a>  |  <a href="https://goo.gl/wicJTO">Visit the store →</a>
-                    </div>
-                </div>
-            </div>
-            <div id="main-content-body">
-                <div class="theme" id="theme3">
-                    <div class="image">
-                        <img alt="image" src="../img/works/linetheme-3.png"/>
-                    </div>
-                    <div class="about">
-                        <h3>Race Driver</h3>
-                        <h4 class="summary">We are the driver, go race, win the race and go around the world.</h4>
-                        <br/>
-                        <a href="#qrcode3">Scan the QR Code</a>  |  <a href="https://goo.gl/BntWnL">Visit the store →</a>
+                    <div id="off" class="tabcontent">
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-1.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Army Commander</h3>
+                                <h4 class="summary">You like military things? here, you as commander ready to command your army.</h4>
+                                <b><span id="coins" class="price">Not Available</span></b>
+                            </div>
+                        </div>
+                        <div id="theme">
+                            <div class="image-line">
+                                <img alt="image" src="../img/works/linetheme-2.png"/>
+                            </div>
+                            <div class="about-line">
+                                <h3>Glowing Fragment</h3>
+                                <h4 class="summary">Dark world with glow of the lost fragment that coming from future world.</h4>
+                                <b><span id="coins" class="price">Not Available</span></b>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,29 +475,9 @@
         </section>
         <footer>
             <div><a href="../about/privacy-policy">Privacy Policy</a> | <a href="../about/faq-frequently-asked-questions">FAQ</a></div>
-            <div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao, Powered by <a href="http://github.com/">Github</a></div>
+            <div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
         </footer>
         <!-- QR Code Modal Box -->
-        <div id="qrcode1" class="qrDialog">
-            <div>
-                <a href="#close" title="Close" class="close">X</a>
-                <h2>Army Commander<br/>QR CODE</h2>
-                <img class="qr" src="../img/works/qr-1-linetheme.png"></img>
-                <br/>
-                <br/>
-                Scan this image using your QR Code scanner or <a target='_blank' href="img/qr-1-linetheme.png">click here</a> to open it on new tab
-            </div>
-        </div>
-        <div id="qrcode2" class="qrDialog">
-            <div>
-                <a href="#close" title="Close" class="close">X</a>
-                <h2>Glowing Fragment<br/>QR CODE</h2>
-                <img class="qr" src="../img/works/qr-2-linetheme.png"></img>
-                <br/>
-                <br/>
-                Scan this image using your QR Code scanner or <a target='_blank' href="img/qr-2-linetheme.png">click here</a> to open it on new tab
-            </div>
-        </div>
         <div id="qrcode3" class="qrDialog">
             <div>
                 <a href="#close" title="Close" class="close">X</a>
@@ -178,8 +485,162 @@
                 <img class="qr" src="../img/works/qr-3-linetheme.png"></img>
                 <br/>
                 <br/>
-                Scan this image using your QR Code scanner or <a target='_blank' href="img/qr-3-linetheme.png">click here</a> to open it on new tab
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-3-linetheme.png">click here</a> to open it on new tab
             </div>
         </div>
+        <div id="qrcode4" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Glowing Fragment Ground Zero<br/>QR CODE</h2>
+                <img class="qr" src="../img/works/qr-4-linetheme.png"></img>
+                <br/>
+                <br/>
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-4-linetheme.png">click here</a> to open it on new tab
+            </div>
+        </div>
+        <div id="qrcode5" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Glowing Fragment Scarlet Land<br/>QR CODE</h2>
+                <img class="qr" src="../img/works/qr-5-linetheme.png"></img>
+                <br/>
+                <br/>
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-5-linetheme.png">click here</a> to open it on new tab
+            </div>
+        </div>
+        <div id="qrcode6" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Glowing Fragment Gold Break<br/>QR CODE</h2>
+                <img class="qr" src="../img/works/qr-6-linetheme.png"></img>
+                <br/>
+                <br/>
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-6-linetheme.png">click here</a> to open it on new tab
+            </div>
+        </div>
+        <div id="qrcode7" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>輝く欠片 ゴールドブレーク<br/>QR QR コード</h2>
+                <img class="qr" src="../img/works/qr-7-linetheme.png"></img>
+                <br/>
+                <br/>
+                あなたのQRコードスキャナでこの絵をスキャンしてか <a target='_blank' href="../img/works/qr-7-linetheme.png">ここにタップして</a>
+            </div>
+        </div>
+        <div id="qrcode8" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>輝く欠片 グランドゼロ<br/>QR QR コード</h2>
+                <img class="qr" src="../img/works/qr-8-linetheme.png"></img>
+                <br/>
+                <br/>
+                あなたのQRコードスキャナでこの絵をスキャンしてか <a target='_blank' href="../img/works/qr-8-linetheme.png">ここにタップして</a>
+            </div>
+        </div>
+        <div id="qrcode9" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>輝く欠片 スカーレットランド<br/>QR QR コード</h2>
+                <img class="qr" src="../img/works/qr-8-linetheme.png"></img>
+                <br/>
+                <br/>
+                あなたのQRコードスキャナでこの絵をスキャンしてか <a target='_blank' href="../img/works/qr-9-linetheme.png">ここにタップして</a>
+            </div>
+        </div>
+        <div id="qrcode10" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Glowing Fragment Amethyst<br/>QR CODE</h2>
+                <img class="qr" src="../img/works/qr-10-linetheme.png"></img>
+                <br/>
+                <br/>
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-10-linetheme.png">click here</a> to open it on new tab
+            </div>
+        </div>
+        <div id="qrcode11" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>輝く欠片 アメジスト<br/>QR QR コード</h2>
+                <img class="qr" src="../img/works/qr-11-linetheme.png"></img>
+                <br/>
+                <br/>
+                あなたのQRコードスキャナでこの絵をスキャンしてか <a target='_blank' href="../img/works/qr-11-linetheme.png">ここにタップして</a>
+            </div>
+        </div>
+        <div id="qrcode12" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Glowing Fragment Chrome<br/>QR CODE</h2>
+                <img class="qr" src="../img/works/qr-12-linetheme.png"></img>
+                <br/>
+                <br/>
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-12-linetheme.png">click here</a> to open it on new tab
+            </div>
+        </div>
+        <div id="qrcode13" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>輝く欠片 クロム<br/>QR QR コード</h2>
+                <img class="qr" src="../img/works/qr-13-linetheme.png"></img>
+                <br/>
+                <br/>
+                あなたのQRコードスキャナでこの絵をスキャンしてか <a target='_blank' href="../img/works/qr-13-linetheme.png">ここにタップして</a>
+            </div>
+        </div>
+        <div id="qrcode14" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Glowing Fragment Blue Space<br/>QR CODE</h2>
+                <img class="qr" src="../img/works/qr-14-linetheme.png"></img>
+                <br/>
+                <br/>
+                Scan this image using your QR Code scanner or <a target='_blank' href="../img/works/qr-14-linetheme.png">click here</a> to open it on new tab
+            </div>
+        </div>
+        <div id="qrcode15" class="qrDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>輝く欠片 ブルースペース<br/>QR QR コード</h2>
+                <img class="qr" src="../img/works/qr-15-linetheme.png"></img>
+                <br/>
+                <br/>
+                あなたのQRコードスキャナでこの絵をスキャンしてか <a target='_blank' href="../img/works/qr-15-linetheme.png">ここにタップして</a>
+            </div>
+        </div>
+        <script>
+        function pagetab(evt, pagename) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(pagename).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/sidebar.js"></script>
+        <script>
+            $("#leftside-navigation .sub-menu > a").click(function(e) {
+                $("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(), e.stopPropagation()
+            })
+        </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-92676139-1', 'auto');
+            ga('send', 'pageview');
+        </script>
 	</body>
 </html>
