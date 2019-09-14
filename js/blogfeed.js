@@ -11,10 +11,10 @@
 					effect			:'fade',
 					fontstyle		:'normal',
 					autoplay		:false,
-					timer			:4000,
+					timer			:3000,
 					feed			:false,
 					feedlabels		:false,
-					feedcount		:5
+					feedcount		:3
 				};
 			var feeds=[];
 			var labels=[];

@@ -1,3 +1,2 @@
-# Yusatsu Nao User Site Repository
-
-Any contributor is not allowed to edit or change any files or setting in this repository
+# Chinatsuki Official Github Site
+Forbidden to edit or copying files in this repository

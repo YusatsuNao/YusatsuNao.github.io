@@ -1,137 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<!-- General meta tag-->
 		<meta charset="utf-8">
-		<title>Yusatsu Nao - Official Site</title>
+		<link rel="icon" type="image/png" href="img/naologo.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="http://chinatsuki.com/">
+	<!-- Front Page meta tag -->
+		<title>Yusatsu Nao</title>
 		<meta name="author" content="Yusatsu Nao">
 		<meta name="description" content="Yusatsu Nao's official Site. Everything that I made, I put it in this personal website. From windows icons, rainmeter, skins, wallpaper, and etc.">
 		<meta name="keywords" content="Yusatsu Nao, Yusatsu, Nao, Yusatsu Nao Official Site, Fukumura Tatsuya,Anime,Rainmter,Icons,Windows,LINE,Theme,Sticker,LINE THEME,LINE Sticker,Anime Rainmeter,Anime Icons,Creator">
 		<meta name="copyright" content="Copyright &#169; Yusatsu Nao">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="canonical" href="http://yusatsunao.github.io/">
-		<link rel="icon" type="image/png" href="img/naologo.png">
+	<!-- Front Page script & css-->
 		<link rel="stylesheet" href="css/server.css">
-		<link rel="stylesheet" href="css/base.css">
-		<script type="text/javascript">
-			day=new Date()     //..get the date
-			x=day.getHours()    //..get the hour
-			if(x>=0 && x<5) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/night.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
+		<link rel="stylesheet" href="css/ui-home.css">
+		<script>
+			day=new Date()	 //..get the date
+			x=day.getHours()	//..get the hour
+			if(x>=0 && x<4) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/night_b.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
+			} else
+			if(x>=4 && x<5) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/night_c.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			} else
 			if(x>=5 && x<7) {
-			document.write('<style type="text/css">header {background: transparent url(img/background/sunrise.jpg) fixed no-repeat 50% 100% / cover; }</style>')
+			document.write('<style type="text/css">body {background: transparent url(img/background/sunrise.jpg) fixed no-repeat 50% 100% / cover; }</style>')
 			} else
-			if(x>=7 && x<11) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/morning.jpg) fixed no-repeat 50% 50% / cover; }</style>')
+			if(x>=7 && x<9) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/morning_a.jpg) fixed no-repeat 50% 50% / cover; }</style>')
 			} else
-			if (x>=11 && x<14) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/noon.jpg) fixed no-repeat 50% 50% / cover; }</style>')
+			if(x>=9 && x<11) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/morning_b.jpg) fixed no-repeat 50% 50% / cover; }</style>')
+			} else
+			if (x>=11 && x<13) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/noon.jpg) fixed no-repeat 50% 50% / cover; }</style>')
+			}
+			if (x>=13 && x<14) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/afternoon_a.jpg) fixed no-repeat 50% 50% / cover; }</style>')
 			}
 			if (x>=14 && x<16) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/afternoon.jpg) fixed no-repeat 50% 50% / cover; }</style>')
+			document.write('<style type="text/css">body { background: transparent url(img/background/afternoon_b.jpg) fixed no-repeat 50% 50% / cover; }</style>')
 			}
-			if (x>=16 && x<19) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/sunset.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
+			if (x>=16 && x<18) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/sunset_a.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
+			}
+			if (x>=18 && x<19) {
+			document.write('<style type="text/css">body { background: transparent url(img/background/sunset_b.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			}
 			if (x>=19 && x<22) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/evening.jpg) fixed no-repeat 50% 35% / cover; } .navigation { background: transparent; }</style>')
+			document.write('<style type="text/css">body { background: transparent url(img/background/evening.jpg) fixed no-repeat 50% 35% / cover; } .navigation { background: transparent; }</style>')
 			}
 			if (x>=22 && x<24) {
-			document.write('<style type="text/css">header { background: transparent url(img/background/night.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
+			document.write('<style type="text/css">body { background: transparent url(img/background/night_a.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
 			}
 		</script>
 	</head>
+	<!-- Front Page Content -->
 	<body>
 		<header>
+			<!-- Menu System Mobile -->			
+			<div id="circularMenu" class="circular-menu">
+				<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+					<span id="menu-logo"></span>
+				</a>
+				<menu class="items-wrapper">
+					<a href="#header" class="menu-item">Top</a>
+					<a href="blog" class="menu-item">Blog</a>
+					<a href="works" class="menu-item">Works</a>
+					<a href="about" class="menu-item">About</a>
+				</menu>
+			</div>
+			<!-- Menu System Desktop-->
 			<div id="header">
 				<div class="header">
-	          		<div class="hl">
-	                	<img alt="Yusatsu Nao's Logo" src="img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
-	            	</div>
-				</div>
-				<div id="menu">
-					<div id="sidebarmenu">
-						<div class="logo">
-							<img alt="Yusatsu Nao's Logo" src="img/yusatsunao.png" onClick="location.href='http://yusatsunao.github.io/'"/>
-						</div>
-						<div class="sidebar">
-							<div id="leftside-navigation" class="nano">
-								<ul>
-									<li>
-										<a href="http://yusatsunao.github.io/eirlane">
-											<span>EIRLANE</span>
-										</a>
-									</li>
-									<li>
-										<a href="http://yusatsunao.github.io/log">
-											<span>LOG</span>
-										</a>
-									</li>
-									<li class="sub-menu">
-										<a href="javascript:void(0);">
-											<span>BLOG</span>
-										</a>
-										<ul id="blog-sub">
-											<li><a href="http://yusatsunao.github.io/blog">BLOG</a></li>
-											<li><a href="http://yusatsunao.github.io/blog/search">SEARCH</a></li>
-										</ul>
-									</li>
-									<li class="sub-menu">
-										<a href="javascript:void(0);">
-											<span>WORKS</span>
-										</a>
-										<ul id="works-sub">
-											<li><a href="http://yusatsunao.github.io/works">WORKS</a></li>
-											<li><a href="http://yusatsunao.github.io/works/anime-icon">ANIME ICON</a></li>
-											<li><a href="http://yusatsunao.github.io/works/anime-rainmeter">ANIME RAINMETER</a></li>
-											<li><a href="http://yusatsunao.deviantart.github.io/">DEVIANTART</a></li>
-											<li><a href="http://yusatsunao.github.io/works/line-theme">LINE THEME</a></li>
-											<li><a href="http://wattpad.github.io/yusatsunao">WATTPAD</a></li>
-										</ul>
-									</li>
-									<li class="sub-menu">
-										<a href="javascript:void(0);">
-											<span>ABOUT</span>
-										</a>
-										<ul id="about-sub">
-											<li><a href="http://yusatsunao.github.io/about">ABOUT</a></li>
-											<li><a href="http://yusatsunao.github.io/about/privacy-policy">PRIVACY POLICY</a></li>
-											<li><a href="http://yusatsunao.github.io/about/faq-frequently-asked-questions">FAQ</a></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-						</div>
+					<div class="hl">
+						<img alt="Yusatsu Nao's Logo" src="img/yusatsunao.png"/>
 					</div>
 				</div>
-				<div class="overlay"></div>
 				<nav class="navigation">
 					<ul>
-						<li><a class="menu" href="#menu">MENU</a></li>
-						<li><a class="pc-menu" href="http://yusatsunao.github.io/blog">BLOG</a></li>
-						<li><a class="pc-menu" href="http://yusatsunao.github.io/works">WORKS</a></li>
-						<li><a class="pc-menu" href="http://yusatsunao.github.io/about">ABOUT</a></li>
+						<li><a class="pc-menu" href="index">TOP</a></li>
+						<li><a class="pc-menu" href="blog">BLOG</a></li>
+						<li><a class="pc-menu" href="works">WORKS</a></li>
+						<li><a class="pc-menu" href="about">ABOUT</a></li>
 					</ul>
 				</nav>
-	        </div>
-	        <div class="clock">
-	        	<div class="digital-clock">00 : 00 : 00</div>
+			</div>
+			<div class="clock">
+				<div class="digital-clock">00 : 00 : 00</div>
 				<div class="day-cond">
-					<script type="text/javascript"> 
+					<script> 
 						var myDate = new Date(); 
-
 						if ( myDate.getHours() >= 00 )  
-						{ 
-						document.write("AM"); 
-						} 
-						else
-						if ( myDate.getHours() >= 12 )  
-						{ 
-						document.write("PM"); 
-						} 
+						{ document.write("AM"); } 
+						else if ( myDate.getHours() >= 12 )  
+						{ document.write("PM"); } 
 					</script> 
 				</div>
-	        </div>
+			</div>
 		</header>
 		<section id="homepage">
 			<div class="headline">
@@ -141,10 +108,9 @@
 						<span></span>
 					</div>
 					<ul>
-						<li><a href="blog/post12-new-line-theme-with-low-price">Wednesday, January 10, 2018 | <b>New LINE THEME with Low Price.</b></a></li>
-						<li><a href="blog/post11-glowing-fragment-scarlet-land-line-theme-released">Saturday, July 22, 2017 | <b>LINE THEME - Glowing Fragment Scarlet Land Released.</b></a></li>
-						<li><a href="blog/post10-glowing-fragment-ground-zero-line-theme-released">Wednesday, June 21, 2017 | <b>LINE THEME - Glowing Fragment Ground Zero Released.</b></a></li>
-						<li><a href="blog/post9-anime-icon-spring-2017-released">Tuesday, May 2, 2017 | <b>Anime Icon Spring 2017 Released.</b></a></li>
+						<li><a id="link-3" href="#"><span id="date-3">N/A</span> | <b><span id="title-3">N/A</span></b></a></li>
+						<li><a id="link-2" href="#"><span id="date-2">N/A</span> | <b><span id="title-2">N/A</span></b></a></li>
+						<li><a id="link-1" href="#"><span id="date-1">N/A</span> | <b><span id="title-1">N/A</span></b></a></li>
 					</ul>
 					<div class="blogfeed-navigation">
 						<span></span>
@@ -152,67 +118,64 @@
 					</div>
 				</div>
 			</div>
-        	<div class="main-content-home">
-        		<div class="post">
+			<div id="main-content-home">
+				<div class="post">
+					<figure class="post-item" onClick="location.href='blog/post13-girls-frontline-assistant-rainmeter-released'">
+						<img src="img/blog/p13.png" alt="Yusatsu Nao, yusatsu nao"/>
+						<figcaption>
+							<h2>RAINMETER SKINS - Girls Frontline Assistant Released</h2>
+							<p><span id="podc-3"></span></p>
+							<p>Thursday, March 28, 2019</p>
+							<a href="blog/post13-girls-frontline-assistant-rainmeter-released"></a>
+						</figcaption>	
+					</figure>
 					<figure class="post-item" onClick="location.href='blog/post12-new-line-theme-with-low-price'">
-						<img src="img/blog/p12.png" alt="Yusatsu Nao, yusatsun nao"/>
+						<img src="img/blog/p12.png" alt="Yusatsu Nao, yusatsu nao"/>
 						<figcaption>
 							<h2>New Line Theme with Low Price</h2>
-							<p>Hi and Good afternoon guys long time no see. A past few days I release some new version of my LINE Theme *I don't know why I make these things*. Anyway for this update I change the color theme to ...</p>
+							<p><span id="podc-2"></span></p>
 							<br/>
 							<p>Wednesday, January 10, 2018</p>
 							<a href="blog/post12-new-line-theme-with-low-price"></a>
 						</figcaption>	
 					</figure>
 					<figure class="post-item" onClick="location.href='blog/post11-glowing-fragment-scarlet-land-line-theme-released'">
-						<img src="img/blog/p11.png" alt="Yusatsu Nao, yusatsun nao"/>
+						<img src="img/blog/p11.png" alt="Yusatsu Nao, yusatsu nao"/>
 						<figcaption>
 							<h2>LINE THEME - Glowing Fragment Scarlet Land Released</h2>
-							<p>Hello guys, welcome to my site, today I release my fifth LINE Theme, I hope next I can make more LINE Theme and of course LINE Sticker, but first I need to finish my real life problem, after that I...</p>
+							<p><span id="podc-1"></span></p>
 							<p>Saturday, July 22, 2017</p>
 							<a href="blog/post11-glowing-fragment-scarlet-land-line-theme-released"></a>
 						</figcaption>	
 					</figure>
-					<figure class="post-item" onClick="location.href='blog/post10-glowing-fragment-ground-zero-line-theme-released'">
-						<img src="img/blog/p10.png" alt="Yusatsu Nao, yusatsun nao"/>
-						<figcaption>
-							<h2>LINE THEME - Glowing Fragment Ground Zero Released</h2>
-							<p>Hello guys, today is Wednesday, June 21 year 2017, and today I'm releasing my new Theme, well, I just change some part and the color, because, maybe.. some of you don't like blue color so I create the theme with...</p>
-							<p>Wednesday, June 21, 2017</p>
-							<a href="blog/post10-glowing-fragment-ground-zero-line-theme-released"></a>
-						</figcaption>	
-					</figure>
 				</div>
 				<div class="see">
-					<h3><a href="blog">《 SEE MORE POST 》</a>
+					<h3><a href="blog">《 SEE MORE POST 》</a></h3>
 				</div>
-            </div>
-			<div class="main-content-social">
+			</div>
+			<div id="main-content-social">
 				<div class="social">
-					<div class="content" id="content-mobile">
-						<a href="blog/post12-new-line-theme-with-low-price"><img alt="Yusatsu Nao New content" src="img/works/content.png" onClick="location.href='blog/post12-new-line-theme-with-low-price'"/></a>
-					</div>
 					<div class="content">
-						<a class="twitter-timeline" data-width="550" data-height="600" data-theme="dark" href="https://twitter.com/yusatsunao">Tweets by yusatsunao</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<a class="twitter-timeline" data-width="550" data-height="600" data-theme="dark" href="https://twitter.com/yusatsunao">Tweets by yusatsunao</a><script async src="//platform.twitter.com/widgets.js"></script>
 					</div>
 				</div>
 			</div>
 			<div id="profile">
 				<div class="profile">
-	    			<div class="avatar">
-	        			<img alt="author" src="img/naologo.png"/>
-	      			</div>
+					<div class="avatar">
+						<img alt="author" src="img/naologo.png"/>
+		  			</div>
 	  				<div class="about">
-	    				<h1>Yusatsu Nao's Official Site</h1>
-	      				<div class="summary">Welcome to my official site, my name is <b>Yusatsu Nao</b>. I create and own this site, I make a lot of things, well, not many but I will post my works in this site, you can check my works on works page you can click on the navigation above. All of ideas I have, I pour it in a visual form. I hope you like what I make and edit. Follow me on <b>Google+</b>, <b>Facebook Fanpage</b>, <b>LINE@ Official Account</b> ( if you have a LINE Account ) go to "About" page to see the links.
-	      				</div>
+						<h1>Yusatsu Nao's Official Site</h1>
+		  				<div class="summary">Welcome to my official site, my name is <b>Yusatsu Nao</b>. I create and own this site, I make a lot of things. well, not many but I will post my works in this site, you can check my works on works page you can click on the navigation above. All of ideas I have, I pour it in visual form. I hope you like what I make and edit. Follow me on <b>Google+</b>, <b>Facebook Fanpage</b> and <b>LINE@ Official Account</b> ( if you have a LINE Account ) go to "About" page to see the links.
+		  				</div>
 	  				</div>
 				</div>
 			</div>
 			<div id="contact">
 				<div class="contact-button">
 					<div class="contact-facebook">
-						<a class="icon-facebook" id="facebook" href="https://www.facebook.com/yusatsunao" target="_blank"></a>
+						<a class="icon-facebook" id="facebook" href="https://www.facebook.com/yusatsunao/" target="_blank"></a>
 					</div>
 					<div class="contact-twitter">
 						<a class="icon-twitter" id="twitter" href="https://twitter.com/yusatsunao" target="_blank"></a>
@@ -223,70 +186,57 @@
 				</div>
 			</div>
 		</section>
-		<footer>
-			<div><a href="about/privacy-policy">Privacy Policy</a> | <a href="about/faq-frequently-asked-questions">FAQ</a></div>
-			<div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
-		</footer>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/sidebar.js"></script>
-		<script type="text/javascript">
-			$("#leftside-navigation .sub-menu > a").click(function(e) {
-  				$("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(), e.stopPropagation()
-  			})
-		</script>
-		<script src="js/blogfeed.js"></script>
-		<script type="text/javascript">
-			$(window).load(function(e) {
-				$("#bn6").breakingNews({
-					effect      :"slide",
-					autoplay    : true,
-					timer       : 4000,
-					color       :'purple'
-				});
-			});
-		</script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				clockUpdate();
-				setInterval(clockUpdate, 1000);
-			})
-
-			function clockUpdate() {
-				var date = new Date();
-				$('.digital-clock').css({'color': '#fff', 'text-shadow': '0 0 6px #000'});
-				function addZero(x) {
-				if (x < 10) {
-				return x = '0' + x;
-				}
-				else {
-					return x;
-				}
-			}
-
-			function twelveHour(x) {
-				if (x > 12) {
-					return x = x - 12;
-				} else if (x == 0) {
-					return x = 12;
-				} else {
-					return x;
-				}
-			}
-
-			var h = addZero(date.getHours());
-			var m = addZero(date.getMinutes());
-			var s = addZero(date.getSeconds());
-
-			$('.digital-clock').text(h + ':' + m + ':' + s) }
-		</script>
-		<script type="text/javascript">
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			
-			ga('create', 'UA-92676139-1', 'auto');
-			ga('send', 'pageview');
-		</script>
 	</body>
+	<!-- General Footer -->
+	<footer>
+		<div class="credit">Copyright &#169; 2015 - <script>document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
+	</footer>
+	<!-- Afterload script & css-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/blogdatalast.js"></script>
+	<script src="js/blogfeed.js"></script>
+	<script>
+		$(window).load(function(e) {
+			$("#bn6").breakingNews({
+				effect	  :"slide",
+				autoplay	: true,
+				timer	   : 4000,
+				color	   :'purple'
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			clockUpdate();
+			setInterval(clockUpdate, 1000);
+		})
+
+		function clockUpdate() {
+			var date = new Date();
+			$('.digital-clock').css({'color': '#fff', 'text-shadow': '0 0 6px #000'});
+			function addZero(x) {
+			if (x < 10) {
+			return x = '0' + x;
+			}
+			else {
+				return x;
+			}
+		}
+
+		function twelveHour(x) {
+			if (x > 12) {
+				return x = x - 12;
+			} else if (x == 0) {
+				return x = 12;
+			} else {
+				return x;
+			}
+		}
+
+		var h = addZero(date.getHours());
+		var m = addZero(date.getMinutes());
+		var s = addZero(date.getSeconds());
+
+		$('.digital-clock').text(h + ':' + m + ':' + s) }
+	</script>
 </html>
