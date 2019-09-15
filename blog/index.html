@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- General meta tag-->
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="img/naologo.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="http://chinatsuki.com/">
+	<!-- Front Page meta tag -->
+		<title>Blog - Yusatsu Nao</title>
+		<meta name="author" content="Yusatsu Nao">
+        <meta name="Description" content="Yusatsu Nao's Official Site. Blog page, check out the latest news about my works in this page and other news about me.">
+        <meta name="Keywords" content="Yusatsu Nao, Yusatsu, Nao, Yusatsu Nao Official Site, Fukumura Tatsuya,Anime,Rainmter,Icons,Windows,LINE,Theme,Sticker,LINE THEME,LINE Sticker,Anime Rainmeter,Anime Icons,Creator">
+		<meta name="copyright" content="Copyright &#169; Yusatsu Nao">
+	<!-- Front Page script & css-->
+		<link rel="stylesheet" href="../css/server.css">
+		<link rel="stylesheet" href="../css/ui-blog.css">
+        <style>
+            #main-content {
+                max-width: 70rem;
+                padding: 2rem 3rem; }
+        </style>
+	</head>
+	<!-- Front Page Content -->
+	<body>
+		<header>
+			<!-- Menu System Mobile -->			
+			<div id="circularMenu" class="circular-menu">
+				<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+					<span id="menu-logo"></span>
+				</a>
+				<div class="items-wrapper">
+                    <a href="../index" class="item">Home</a>
+                    <a href="../blog" class="item">Blog</a>
+                    <a href="../works" class="item">Works</a>
+                    <a href="../about" class="item">About</a>
+				</div>
+			</div>
+		</header>
+		<section>
+            <div style="background: #0095FF;" class="top-border"></div>
+            <div style="text-align: center; color: #0095FF;" id="main-content-head">
+                <a class="title">BLOG</a>
+            </div>
+			<div id="main-content">
+                <h1>Yusatsu Nao's Blog</h1>
+                In this page you can see the list of post I already made. If there is something you want look for try type the keyword inside the input box below and the results will out.<br/><br/>
+                <div id="searchinput">
+                    <input type="text" id="searchbox" onkeyup="myFunction()" placeholder="Search blog posts..." title="Type in a title">
+                </div>
+                <ul id="postlist">
+                    <li class="blog"><a id="link-1" href="#">001 : <span id="date-1">N/A</span><br/><span id="title-1">N/A</span></a></li>
+                    <li class="lt"  ><a id="link-2" href="#">002 : <span id="date-2">N/A</span><br/><span id="title-2">N/A</span></a></li>
+                    <li class="blog"><a id="link-3" href="#">003 : <span id="date-3">N/A</span><br/><span id="title-3">N/A</span></a></li>
+                    <li class="ar"  ><a id="link-4" href="#">004 : <span id="date-4">N/A</span><br/><span id="title-4">N/A</span></a></li>
+                    <li class="lt"  ><a id="link-5" href="#">005 : <span id="date-5">N/A</span><br/><span id="title-5">N/A</span></a></li>
+                    <li class="ai"  ><a id="link-6" href="#">006 : <span id="date-6">N/A</span><br/><span id="title-6">N/A</span></a></li>
+                    <li class="lt"  ><a id="link-7" href="#">007 : <span id="date-7">N/A</span><br/><span id="title-7">N/A</span></a></li>
+                    <li class="blog"><a id="link-8" href="#">008 : <span id="date-8">N/A</span><br/><span id="title-8">N/A</span></a></li>
+                    <li class="ai"  ><a id="link-9" href="#">009 : <span id="date-9">N/A</span><br/><span id="title-9">N/A</span></a></li>
+                    <li class="lt"  ><a id="link-10" href="#">010 : <span id="date-10">N/A</span><br/><span id="title-10">N/A</span></a></li>
+                    <li class="lt"  ><a id="link-11" href="#">011 : <span id="date-11">N/A</span><br/><span id="title-11">N/A</span></a></li>
+                    <li class="lt"  ><a id="link-12" href="#">012 : <span id="date-12">N/A</span><br/><span id="title-12">N/A</span></a></li>
+                    <li class="ar"  ><a id="link-13" href="#">013 : <span id="date-13">N/A</span><br/><span id="title-13">N/A</span></a></li>
+                </ul>
+                <script>
+                function myFunction() {
+                    var input, filter, ul, li, a, i;
+                    input = document.getElementById("searchbox");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("postlist");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            li[i].style.display = "";
+                        } else {
+                            li[i].style.display = "none";
+                        }
+                    }
+                }
+                </script>
+            </div>
+            <div style="background: #0095FF;" class="bottom-border"></div>
+		</section>
+		<!-- General Footer -->
+		<footer>
+			<div class="credit">Copyright &#169; 2015 - <script>document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
+		</footer>
+		<!-- Afterload script & css-->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/blogdata.json"></script>
+        <script src="../js/blogdata.js"></script>
+	</body>
+</html>

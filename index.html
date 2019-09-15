@@ -187,56 +187,56 @@
 			</div>
 		</section>
 		<!-- General Footer -->
-		<footer>
+		<div id="footer">
 			<div class="credit">Copyright &#169; 2015 - <script>document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
-		</footer>
-	</body>
-	<!-- Afterload script & css-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/blogdatalast.js"></script>
-	<script src="js/blogfeed.js"></script>
-	<script>
-		$(window).load(function(e) {
-			$("#bn6").breakingNews({
-				effect	  :"slide",
-				autoplay	: true,
-				timer	   : 4000,
-				color	   :'purple'
+		</div>
+		<!-- Afterload script & css-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/blogdatalast.js"></script>
+		<script src="js/blogfeed.js"></script>
+		<script>
+			$(window).load(function(e) {
+				$("#bn6").breakingNews({
+					effect	  :"slide",
+					autoplay	: true,
+					timer	   : 4000,
+					color	   :'purple'
+				});
 			});
-		});
-	</script>
-	<script>
-		$(document).ready(function() {
-			clockUpdate();
-			setInterval(clockUpdate, 1000);
-		})
+		</script>
+		<script>
+			$(document).ready(function() {
+				clockUpdate();
+				setInterval(clockUpdate, 1000);
+			})
 
-		function clockUpdate() {
-			var date = new Date();
-			$('.digital-clock').css({'color': '#fff', 'text-shadow': '0 0 6px #000'});
-			function addZero(x) {
-			if (x < 10) {
-			return x = '0' + x;
+			function clockUpdate() {
+				var date = new Date();
+				$('.digital-clock').css({'color': '#fff', 'text-shadow': '0 0 6px #000'});
+				function addZero(x) {
+				if (x < 10) {
+				return x = '0' + x;
+				}
+				else {
+					return x;
+				}
 			}
-			else {
-				return x;
+
+			function twelveHour(x) {
+				if (x > 12) {
+					return x = x - 12;
+				} else if (x == 0) {
+					return x = 12;
+				} else {
+					return x;
+				}
 			}
-		}
 
-		function twelveHour(x) {
-			if (x > 12) {
-				return x = x - 12;
-			} else if (x == 0) {
-				return x = 12;
-			} else {
-				return x;
-			}
-		}
+			var h = addZero(date.getHours());
+			var m = addZero(date.getMinutes());
+			var s = addZero(date.getSeconds());
 
-		var h = addZero(date.getHours());
-		var m = addZero(date.getMinutes());
-		var s = addZero(date.getSeconds());
-
-		$('.digital-clock').text(h + ':' + m + ':' + s) }
-	</script>
+			$('.digital-clock').text(h + ':' + m + ':' + s) }
+		</script>
+	</body>
 </html>

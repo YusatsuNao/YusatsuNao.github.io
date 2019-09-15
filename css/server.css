@@ -22,6 +22,8 @@ a:hover {
 	color: #47C2DC; }
 div {
 	transition: all 0.25s ease 0s; }
+img {
+	max-width: 100%; }
 
 /* Navigation CSS Code */
 #menu-logo {
@@ -108,6 +110,52 @@ div {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px; }
+#main-content {
+	max-width: 64rem;
+	padding: 2rem 6rem;
+	margin: 0px auto;
+	font-size: 1rem;
+	background: rgba(255, 255, 255, 0.8);
+	text-align: Justify; }
+#main-content-head {
+	max-width: 70rem;
+	padding: 1rem 3rem;
+	margin: 0px auto;
+	font-size: 1rem;
+	background: #303030;}
+#main-content-share {
+	max-width: 76rem;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 1rem;
+	height: 80px;
+	background: rgba(255, 255, 255, 0.8); }
+#main-content-comment {
+	max-width: 72rem;
+	padding: 2rem 2rem;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 1rem;
+	background: rgba(255, 255, 255, 0.65); }
+#main-content-foot {
+	max-width: 70rem;
+	padding: 2rem 3rem;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 1rem;
+	background: rgba(255, 255, 255, 0.8); }
+.top-border {
+	max-width: 70rem;
+	padding: 2px 3rem;
+	margin: 0px auto;
+	font-size: 1rem;
+	background: transparent;}
+.bottom-border {
+	max-width: 70rem;
+	padding: 2px 3rem;
+	margin: 0px auto;
+	font-size: 1rem;
+	background: transparent;}
 
 /* Contact and Creator CSS Code */
 #contact {
@@ -115,7 +163,7 @@ div {
 	margin: 0px auto;
 	text-align: center;
 	font-size: 1rem;
-	height: 55px;
+	height: 70px;
 	background: rgba(33,33,33,1); }
 #contact-facebook {
 	background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAAwADADAREAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAgJBQYHAgP/xAAbAQEAAgMBAQAAAAAAAAAAAAAABgcDBAUCAf/aAAwDAQACEAMQAAAA4lccKAGXxesVl8+QCf0G70oI506d7XiGJy+RturktKraUQNmvCj93dD5/Ql1FurO+E93kXV1Ks7Ki59Atoq+VVnWJG9I3MIAtoq+VVnWJG9I3MP/xAAxEAABAwIEAwUHBQAAAAAAAAACAQMEBQYABxESCBBBFCAhMnUiMTc4UbGzJjSBkcH/2gAIAQEAAT8A5/74YatC4HgQ26BVjBfFCCA8qL/O3BgTZkBioGK6EJJoqL1Re5wHZC0eJZLOYVYgszqzUXDSnK+G9IjAEobgToZEJeOLizEtW0JAR65clJo75puFqfNbZMk+uhEi4u14JN3V55oxdacqMkwMF1ExV0lRUXqipzsrKW8sx4sqTa9uTa4xGNGnjioOgEqaoi6qnTHDfb1RtTIyzKRVoTlOqUSALciK752z1XVFxnbkDmteGcF5VluzKtUY8uqPrGlaAqGwhqjW3UvLsQdMPsORX3WHR2PNGrZgvvEkVUVP7TnwQ572PlBbF0xLsrSUp+bOaeYDszru8Eb2r5BXFp3VS73tyBXaLJ7ZSp7SPR39hBvBeuhIipi/uL/LW1mbjpiXJ+oqcMiOkRIb/wC5BCRA3bNvn666Y3mepuLucL2iX6qvv7nCj8udg+mB91xnl8ar+9dm/nPu8KPy52D6YH3XGeXxqv712b+c+X//xAAoEQABAwIDCAMBAAAAAAAAAAABAgMEABEFIDQQEjFBcXKRsRMiUWH/2gAIAQIBAT8AyfK2OKh5GXG5yy6YyDYDj/TTcd50XbQT0FNCzaQfwbXpTEcgOrAvWIOJdlOLQbgmoc6IzHbQXALAeedA3F9uMQn5a0FlN7CnWlMrLbgsRTGFSnN1e59TbmOGXE9Y71qHpm+0esuJ6x3rUPTN9o9bP//EACQRAAEDAgYCAwAAAAAAAAAAAAIAAQMEIBESMTIzcRATIUFR/9oACAEDAQE/ALMhfltBALB7S1dFIAbnwR7n8hDJJsbFUwuEIiWqmgmOQiy/dlDPHCJMb4ICYxYh0dHVxDmbH5a2k4B6U/Kfb20nAPSn5T7fx//Z');
@@ -142,7 +190,7 @@ div {
 .contact-button {
 	width: 120px;
 	height: 36px;
-	padding: 10px;
+	padding: 20px;
 	margin: 0px auto; }
 .share-title {
 	margin-bottom: 10px;}
@@ -176,15 +224,18 @@ div {
 	background-position:  36px 0px; }
 
 /* Footer CSS Code */
-footer {
+div#footer, footer {
 	color: #fff;
 	text-align: center;
 	font-family: "Titillium Web", sans-serif;
-	padding: 1rem 1rem;
     background: #303030;
-    max-width: 73rem;
+	padding: 1rem 1rem;
     margin: 0px auto; }
-footer a {
+div#footer {
+	max-width: 73rem; }
+footer {
+	max-width: 74rem; }
+div#footer, footer a {
 	color: #FFFFFF; }
-footer a:hover {
+div#footer, footer a:hover {
 	color: #0095FF; }
