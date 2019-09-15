@@ -70,7 +70,7 @@ div {
 .circular-menu .items-wrapper {
 	padding: 0;
 	margin: 0; }
-.circular-menu .menu-item {
+.circular-menu .item {
 	position: absolute;
 	top: .2em;
 	right: .2em;
@@ -86,17 +86,17 @@ div {
 	line-height: 3;
 	background-color: hsla(0,0%,0%,.1);
 	transition: transform .3s ease, background .2s ease; }
-.circular-menu .menu-item:hover {
+.circular-menu .item:hover {
 	background-color: hsla(0,0%,0%,.3); }
-.circular-menu.active .menu-item {
+.circular-menu.active .item {
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-.circular-menu.active .menu-item:nth-child(1) {
+.circular-menu.active .item:nth-child(1) {
 	transform: translate3d(0.5em,-7em,0); }
-.circular-menu.active .menu-item:nth-child(2) {
+.circular-menu.active .item:nth-child(2) {
 	transform: translate3d(-3.25em,-6em,0); }
-.circular-menu.active .menu-item:nth-child(3) {
+.circular-menu.active .item:nth-child(3) {
 	transform: translate3d(-6em,-3.25em,0); }
-.circular-menu.active .menu-item:nth-child(4) {
+.circular-menu.active .item:nth-child(4) {
 	transform: translate3d(-7em,0.5em,0); }
 
 /* Post Latest Home Page */
@@ -176,7 +176,7 @@ div {
 	background-position:  36px 0px; }
 
 /* Footer CSS Code */
-footer {
+div#footer {
 	color: #fff;
 	text-align: center;
 	font-family: "Titillium Web", sans-serif;
@@ -184,7 +184,7 @@ footer {
     background: #303030;
     max-width: 73rem;
     margin: 0px auto; }
-footer a {
+div#footer a {
 	color: #FFFFFF; }
-footer a:hover {
+div#footer a:hover {
 	color: #0095FF; }
