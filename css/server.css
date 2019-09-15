@@ -176,7 +176,7 @@ div {
 	background-position:  36px 0px; }
 
 /* Footer CSS Code */
-div#footer {
+footer {
 	color: #fff;
 	text-align: center;
 	font-family: "Titillium Web", sans-serif;
@@ -184,7 +184,7 @@ div#footer {
     background: #303030;
     max-width: 73rem;
     margin: 0px auto; }
-div#footer a {
+footer a {
 	color: #FFFFFF; }
-div#footer a:hover {
+footer a:hover {
 	color: #0095FF; }
