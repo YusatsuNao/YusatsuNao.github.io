@@ -156,54 +156,12 @@ h3 {
 .ai {
 	border-left: 5px solid #005D42; }
 
-.blog-title {
-	font-weight: 900;
-	text-align: center;
-	color: #0095FF; }
 .title {
 	font-weight: 900;
 	text-align: center;
 	color: #0095FF; }
-.information {
-    font-size: 15px;
-    font-weight: 500;
-	font-family: Open Sans; }
 .fade {
 	opacity: 0; }
-.blogpostlat {
-	background: #000000;
-	color: #FFFFFF;
-	padding: 10px;
-	margin: 0px auto;
-	border-left: 0px solid #0095FF;
-		-webkit-transition: all 0.3s ease 0s;
-		-moz-transition: all 0.3s ease 0s;
-		transition: all 0.3s ease 0s; }
-.blogpostlat:hover {
-	background: #000000;
-	color: #FFFFFF;
-	padding: 10px;
-	margin: 0px auto;
-	border-left: 10px solid #0095FF; }
-.blogpost {
-	background: #FFFFFF;
-	color: #000000;
-	padding: 10px;
-	margin: 0px auto;
-	margin-top: 10px; }
-.post-title-title {
-	font-weight: 900;
-	float: left; }
-.post-title-date {
-	font-size: 15px;
-	float: right; }
-.post-title-author {
-	font-size: 15px;
-	float: right; }
-#post-description {
-	padding: 30px 10px; }
-.post-div {
-		display: none; }
 .post-title {
 	font-weight: 900;
 	font-size: 20px;
@@ -231,19 +189,9 @@ figcaption {
 		font-size: 1rem; } }
 
 @media only screen and (max-width: 695px) {
-		#main-content-foot {
-			padding: 3rem 3rem; }
-		.post-div {
-			display: block; }
-		#post-title {
-			text-align: center; }
-		.post-title-title {
-			float: none; }
-		.post-title-date {
-			float: none; }
-		.post-title-author {
-			float: none; } }
+	#main-content-foot {
+		padding: 3rem 3rem; } }
 
 @media only screen and (max-width: 480px) {
-		#postlist li a {
-			font-size: 12px; } }
+	#postlist li a {
+		font-size: 12px; } }
