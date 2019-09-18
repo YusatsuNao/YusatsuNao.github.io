@@ -150,18 +150,53 @@ img {
 	text-align: center;
 	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8); }
-.top-border {
+.top-border, .bottom-border {
 	max-width: 70rem;
 	padding: 2px 3rem;
 	margin: 0px auto;
 	font-size: 1rem;
 	background: transparent;}
-.bottom-border {
-	max-width: 70rem;
-	padding: 2px 3rem;
-	margin: 0px auto;
-	font-size: 1rem;
-	background: transparent;}
+
+/* Article CSS Code */
+code {
+	background: #FFFFFF;
+	padding: 0px 5px 0px 5px;
+	border-radius: 5px;
+	font-family: "Titillium Web", sans-serif; }
+
+/* Restricted CSS Code */
+#restricted { 
+	font-size: 15px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: #222222;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; }
+#restrictedh1 {
+	color: #fff;
+	margin: 0px;
+	padding: 10px;
+	margin: 0px auto; }
+.restricteddiv {
+	background-color: rgba(50, 50, 50, 0.50);
+	padding: 10px;
+	color: #ffffff;
+	text-align: center;
+	border: 2px solid #3BB9FF; }
+
+/* 404 CSS Code */
+.errorpage {
+	text-align: center;
+	padding: 1rem 1rem; }
+.errorpage h1 {
+	font-size: 65px; }
+.errorpage h1 h2 {
+	text-align: center; }
 
 /* Contact and Creator CSS Code */
 #contact {
@@ -237,11 +272,11 @@ div#footer, footer {
     background: #303030;
 	padding: 1rem 1rem;
     margin: 0px auto; }
-div#footer {
-	max-width: 73rem; }
-footer {
-	max-width: 74rem; }
 div#footer, footer a {
 	color: #FFFFFF; }
 div#footer, footer a:hover {
 	color: #0095FF; }
+div#footer {
+	max-width: 73rem; }
+footer {
+	max-width: 74rem; }
