@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- General meta tag-->
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="img/naologo.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="http://chinatsuki.com/">
+	<!-- Front Page meta tag -->
+		<title>Works - Yusatsu Nao</title>
+        <meta name="author" content="Yusatsu Nao">
+        <meta name="Description" content="Yusatsu Nao's Official Site. Works page, in this page I create Art, Theme, Icon and etc.">
+        <meta name="Keywords" content="Yusatsu Nao, Yusatsu, Nao, Yusatsu Nao Official Site, Fukumura Tatsuya,Anime,Rainmter,Icons,Windows,LINE,Theme,Sticker,LINE THEME,LINE Sticker,Anime Rainmeter,Anime Icons,Creator">
+        <meta name="copyright" content="Copyright &#169; Yusatsu Nao">
+	<!-- Front Page script & css-->
+		<link rel="stylesheet" href="../css/server.css">
+		<link rel="stylesheet" href="../css/ui-works.css">
+        <style>
+            #main-content {
+                max-width: 70rem;
+                padding: 1rem 3rem; }
+        </style>
+	</head>
+	<!-- Front Page Content -->
+	<body>
+		<header>
+			<!-- Menu System Mobile -->			
+			<div id="circularMenu" class="circular-menu">
+				<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+					<span id="menu-logo"></span>
+				</a>
+				<div class="items-wrapper">
+                    <a href="../index" class="item">Home</a>
+                    <a href="../blog" class="item">Blog</a>
+                    <a href="../works" class="item">Works</a>
+                    <a href="../about" class="item">About</a>
+				</div>
+			</div>
+		</header>
+        <section>
+            <div style='background: #212121 url("../img/works/ynlogo.png") no-repeat 50% 50%; height: 192px;' id="main-content-head"></div>
+            <div style="background: #0095FF;" class="top-border"></div>
+            <div style="text-align: center; color: #0095FF;" id="main-content-head-2">
+                <a class="works-title">ABOUT PAGE</a>
+            </div>
+            <div id="main-content">
+                <div class="item">
+                    <div class="item1" onClick="location.href='anime-works'"></div>
+                    <div class="item2" onClick="location.href='line-works'"></div>
+                    <div class="item3" onClick="location.href='http://yusatsunao.deviantart.com/'"></div>
+                    <!--
+                    <div class="item4" onClick="location.href='http://chinatsuki.com/blog/'"></div>
+                    <div class="item5" onClick="location.href='http://chinatsuki.com/blog/'"></div>
+                    <div class="item6" onClick="location.href='http://chinatsuki.com/blog/'"></div>
+                    <div class="item7" onClick="location.href='http://chinatsuki.com/blog/'"></div>
+                    <div class="item8" onClick="location.href='http://chinatsuki.com/blog/'"></div>
+                    <div class="item9" onClick="location.href='http://chinatsuki.com/blog/'"></div>
+                    -->
+                </div>
+            </div>
+            <div id="main-content-comment">
+                <div id="disqus_thread"></div>
+                <script>
+
+                var disqus_config = function () {
+                this.page.url = 'http://chinatsuki.github.io/works/';  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = 'works'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = '//yusatsunao.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+            <div style="background: #0095FF;" class="bottom-border"></div>
+        </section>
+		<!-- General Footer -->
+		<footer>
+			<div class="credit">Copyright &#169; 2015 - <script>document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
+		</footer>
+		<!-- Afterload script & css-->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/blogdata.json"></script>
+        <script src="../js/blogdata.js"></script>
+	</body>
+</html>

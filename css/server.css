@@ -117,12 +117,18 @@ img {
 	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8);
 	text-align: Justify; }
-#main-content-head {
+#main-content-head, #main-content-head-2 {
 	max-width: 70rem;
 	padding: 1rem 3rem;
 	margin: 0px auto;
 	font-size: 1rem;
 	background: #303030;}
+#main-content-body {
+	max-width: 72rem;
+	padding: 4rem 2rem;
+	margin: 0px auto;
+	font-size: 1rem;
+	background: rgba(255, 255, 255, 0.8); }
 #main-content-share {
 	max-width: 76rem;
 	margin: 0px auto;
