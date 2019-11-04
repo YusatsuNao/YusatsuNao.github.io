@@ -13,65 +13,14 @@ h3 {
 	color: #FFF; }
 
 /* Main Content CSS */
-#main-content :first-child { }
+#main-content :first-child {
+	margin-top: 0px; }
 #main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 {
 	margin-top: 0rem;
 	margin-bottom: 1rem;
 	font-weight: 500;
 	color: #FFFFFF;
 	font-size: 17px; }
-#main-content p {
-	margin-bottom: 1em; }
-#main-content code {
-	padding: 1px 10px;
-	font-family: Open Sans;
-	font-size: 0.9rem;
-	color: #000000;
-	background-color: #FFFFFF;
-	font-weight: 900; }
-#main-content pre {
-	padding: 0.8rem;
-	margin-top: 0;
-	margin-bottom: 1rem;
-	font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-	color: #567482;
-	word-wrap: normal;
-	background-color: #f3f6fa;border: solid 1px #dce6f0;
-	border-radius: 0.3rem; }
-#main-content pre > code {
-	padding: 0;
-	margin: 0;
-	font-size: 0.9rem;
-	color: #567482;
-	word-break: normal;
-	white-space: pre;
-	background: transparent;
-	border: 0; }
-#main-content .highlight {
-	margin-bottom: 1rem; }
-#main-content .highlight pre {
-	margin-bottom: 0;
-	word-break: normal; }
-#main-content .highlight pre, #main-content pre {
-	padding: 0.8rem;
-	overflow: auto;
-	font-size: 0.9rem;
-	line-height: 1.45;
-	border-radius: 0.3rem; }
-#main-content pre code, #main-content pre tt {
-	display: inline;
-	max-width: initial;
-	padding: 0;
-	margin: 0;
-	overflow: initial;
-	line-height: inherit;
-	word-wrap: normal;
-	background-color: transparent;
-	border: 0; }
-#main-content pre code:before, #main-content pre code:after, #main-content pre tt:before, #main-content pre tt:after {
-	content: normal; }
-#main-content ul, #main-content ol {
-	margin-top: 0; }
 #main-content blockquote {
 	padding: 10px;
 	margin: 0px auto;
@@ -81,37 +30,9 @@ h3 {
 	color: #FFFFFF; }
 #main-content blockquote a:hover {
 	color: #F92672; }
-#main-content blockquote > :first-child {
-	margin-top: 0; }
-#main-content blockquote > :last-child {
-	margin-bottom: 0; }
-#main-content table {
-	display: block;
-	width: 100%;
-	overflow: auto;
-	word-break: normal;
-	word-break: keep-all; }
-#main-content table th {
-	font-weight: bold; }
-#main-content table th, #main-content table td {
-	padding: 0.5rem 1rem;
-	border: 1px solid #e9ebec; }
-#main-content dl {
-	padding: 0; }
-#main-content dl dt {
-	padding: 0;
-	margin-top: 1rem;
-	font-size: 1rem;
-	font-weight: bold; }
-#main-content dl dd {
-	padding: 0;
-	margin-bottom: 1rem; }
-#main-content hr {
-	height: 2px;
-	padding: 0;
-	margin: 1rem 0;
-	background-color: #eff0f1;
-	border: 0; }
+#main-content {
+	max-width: 70rem;
+	padding: 2rem 3rem; }
 
 /* Search Page CSS */
 #searchbox {
