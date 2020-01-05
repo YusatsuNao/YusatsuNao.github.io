@@ -8,6 +8,38 @@ h3 {
 	font-family: "PT Sans", sans-serif;
 	font-weight: 900; }
 
+/* Main Content CSS */
+#main-content :first-child {
+	margin-top: 0px auto; }
+#main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 900;
+	color: #159957; }
+#main-content blockquote {
+	padding: 0 1rem;
+	margin-left: 0;
+	color: #819198;
+	border-left: 0.3rem solid #dce6f0; }
+div#main-content-body {
+	position: relative;
+	display: block;
+	overflow: hidden; }
+
+/* Search Page Works */
+#searchbox {
+	background-image: url('../img/icon/search.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	text-align: center;
+	padding: 12px 0px 12px 0px;
+	border: 0px solid #ddd;
+	margin-bottom: 12px;
+	width: 90%; }
+#searchbox:hover {
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2); }
+
 /* Works CSS */
 .works-title {
 	font-weight: 900;
@@ -57,6 +89,8 @@ h3 {
 .item4:hover {
 	background: #000000 url("../img/works/wattpad.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
+
+/* Works Tab */
 ul.tab {
     list-style-type: none;
     margin: 0;
@@ -169,75 +203,13 @@ ul.tab li a:focus, .active {
 	font-weight: 400;
 	line-height: 22px;
 	font-size: 14px; }
-.about {
-	margin: auto;
-	width: 90%; }
-.qrDialog {
-	position: fixed;
-	padding: 20px;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none; }
-.qrDialog:target {
-	opacity:1;
-	pointer-events: auto; }
-.qrDialog > div {
-	max-width: 400px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	text-align: center;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999); }
-.close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
-	text-decoration: none;
-	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000; }
-.close:hover {
-	background: #00d9ff; }
 
-/* Main Content CSS */
-#main-content :first-child {
-	margin-top: 0px auto; }
-#main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-	font-weight: 900;
-	color: #159957; }
-#main-content blockquote {
-	padding: 0 1rem;
-	margin-left: 0;
-	color: #819198;
-	border-left: 0.3rem solid #dce6f0; }
-div#main-content-body {
-	position: relative;
-	display: block;
-	overflow: hidden; }
+/* LINE WORKS */
+.coins {
+	background-image: url(../img/icon/lc.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 20px; /* Or size of icon + spacing */ }
 
 /* Media Screen Bootstrap 1280 or Below */
 @media only screen and (max-width: 480px) {
