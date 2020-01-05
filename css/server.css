@@ -118,8 +118,8 @@ img {
 	background: rgba(255, 255, 255, 0.8);
 	text-align: Justify; }
 #main-content-head, #main-content-head-2 {
-	max-width: 70rem;
-	padding: 1rem 3rem;
+	max-width: 71rem;
+	padding: 1rem 2rem;
 	margin: 0px auto;
 	font-size: 1rem;
 	background: #303030;}
@@ -130,29 +130,29 @@ img {
 	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8); }
 #main-content-share {
-	max-width: 76rem;
+	max-width: 75rem;
 	margin: 0px auto;
 	text-align: center;
 	font-size: 1rem;
 	height: 80px;
 	background: rgba(255, 255, 255, 0.8); }
 #main-content-comment {
-	max-width: 72rem;
+	max-width: 71rem;
 	padding: 2rem 2rem;
 	margin: 0px auto;
 	text-align: center;
 	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.65); }
 #main-content-foot {
-	max-width: 70rem;
-	padding: 2rem 3rem;
+	max-width: 71rem;
+	padding: 2rem 2rem;
 	margin: 0px auto;
 	text-align: center;
 	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8); }
 .top-border, .bottom-border {
-	max-width: 70rem;
-	padding: 2px 3rem;
+	max-width: 71rem;
+	padding: 2px 2rem;
 	margin: 0px auto;
 	font-size: 1rem;
 	background: transparent; }
@@ -364,4 +364,4 @@ div#footer, footer a:hover {
 div#footer {
 	max-width: 73rem; }
 footer {
-	max-width: 74rem; }
+	max-width: 73rem; }

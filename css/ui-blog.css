@@ -31,7 +31,7 @@ h3 {
 #main-content blockquote a:hover {
 	color: #F92672; }
 #main-content {
-	max-width: 70rem;
+	max-width: 69rem;
 	padding: 2rem 3rem; }
 
 /* Search Page CSS */
@@ -92,7 +92,7 @@ h3 {
 	font-size: 15px;
 	text-align: center;
 	color: #0095FF; }
-#post-image {
+div #post-image {
 	text-align: center;
 	max-width: 200px; }
 figcaption {
