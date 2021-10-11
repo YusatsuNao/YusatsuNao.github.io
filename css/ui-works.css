@@ -83,11 +83,11 @@ div#main-content-body {
 	background: #000000 url("../img/works/da.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
 .item4 {
-	background: #212121 url("../img/works/awattpad.png") no-repeat 50% 50%;
+	background: #212121 url("../img/works/ayoutube.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
 	transition: all 0.25s ease-in 0s; }
 .item4:hover {
-	background: #000000 url("../img/works/wattpad.png") no-repeat 50% 50%;
+	background: #000000 url("../img/works/youtube.png") no-repeat 50% 50%;
 	transition: all 0.25s ease-in 0s; }
 
 /* Works Tab */
