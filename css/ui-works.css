@@ -56,7 +56,7 @@ div#main-content-body {
     justify-content: center;
     align-content: flex-start;
     align-items: stretch;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item1, .item2, .item3, .item4, .item1:hover, .item2:hover, .item3:hover, .item4:hover {
 	width: 360px;
 	height: 180px;
@@ -64,31 +64,31 @@ div#main-content-body {
 .item1 {
 	background: #212121 url("../img/works/aanime-works.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item1:hover {
 	background: #000000 url("../img/works/anime-works.png") no-repeat 50% 50%;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item2 {
 	background: #212121 url("../img/works/aline-works.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item2:hover {
 	background: #000000 url("../img/works/line-works.png") no-repeat 50% 50%;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item3 {
 	background: #212121 url("../img/works/ada.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item3:hover {
 	background: #000000 url("../img/works/da.png") no-repeat 50% 50%;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item4 {
 	background: #212121 url("../img/works/ayoutube.png") no-repeat 50% 50%;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 1) inset;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 .item4:hover {
 	background: #000000 url("../img/works/youtube.png") no-repeat 50% 50%;
-	transition: all 0.25s ease-in 0s; }
+	transition: all 0.1s ease-in 0s; }
 
 /* Works Tab */
 ul.tab {
