@@ -547,3 +547,34 @@ footer {
 		padding: 0px !important;
 	}
 }
+
+@media only screen and (max-height: 2160px) {
+	#main-content {
+		min-height: 1790px !important;
+	}
+}
+@media only screen and (max-height: 1440px) {
+	#main-content {
+		min-height: 1080px !important;
+	}
+}
+@media only screen and (max-height: 1080px) {
+	#main-content {
+		min-height: 710px !important;
+	}
+}
+@media only screen and (max-height: 900px) {
+	#main-content {
+		min-height: 540px !important;
+	}
+}
+@media only screen and (max-height: 768px) {
+	#main-content {
+		min-height: 400px !important;
+	}
+}
+@media only screen and (max-height: 720px) {
+	#main-content {
+		min-height: 360px !important;
+	}
+}
