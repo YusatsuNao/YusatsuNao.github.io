@@ -518,7 +518,8 @@ footer {
 		padding: 3% 1% 1% 1% !important; }
 	.blog_title, .works_title {
 		border-radius: 0px !important;
-		width: -webkit-fill-available !important; }
+		width: -webkit-fill-available !important;
+		margin: 0px 0px 20px 0px !important; }		
 	.see {
 		width: -webkit-fill-available !important;
 		margin: 0px auto !important;
