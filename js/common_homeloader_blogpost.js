@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			const postContainer = document.querySelector('#postlist');
 
 			const li = document.createElement('li');
-			li.classList.add('blog', `${item.class}`);
+			li.classList.add('blog', `${item.class}`, 'listed');
 			li.setAttribute('id', `link${index + 1}`);
 
 			li.innerHTML = `

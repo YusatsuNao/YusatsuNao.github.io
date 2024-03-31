@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	fetch('js/yt_data_pop.json')
 		.then(response => response.json())
 		.then(data => {
-			data.slice(0, 3).forEach((item, index) => { // Only process the first three items
+			const numItemsToShow = window.innerWidth < 1025 ? 0 : 3;
+			data.slice(0, numItemsToShow).forEach((item, index) => { // Only process the first two or three items based on screen width
 				createVideoItempop(item, index);
 			});
 		})

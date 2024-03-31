@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	fetch('js/blog_data.json')
 		.then(response => response.json())
 		.then(data => {
-			data.slice(0, 3).forEach((item, index) => { // Only process the first three items
+			const numItemsToShow = window.innerWidth < 1025 ? 2 : 3;
+			data.slice(0, numItemsToShow).forEach((item, index) => { // Only process the first three items
 				createPostItem(item, index);
 			});
 		})
