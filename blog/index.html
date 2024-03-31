@@ -15,11 +15,23 @@
 	<!-- Front Page script & css-->
 		<link rel="stylesheet" href="../css/server.css">
 		<link rel="stylesheet" href="../css/ui-blog.css">
+		<style>
+			#main-content-head, #main-content-head-2 {
+				padding: 0rem;
+			}
+			.navigation, .navigation-blocked {
+				padding: 13px 0px 13px 0px;
+			}
+			.navigation {
+				display: none;
+			}
+		</style>
 	</head>
 	<!-- Front Page Content -->
 	<body>
-		<header>
+		<header id="top">
 			<!-- Menu System Mobile -->			
+			<!--
 			<div id="circularMenu" class="circular-menu">
 				<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
 					<span id="menu-logo"></span>
@@ -31,50 +43,78 @@
 					<a href="../about" class="item">About</a>
 				</div>
 			</div>
+			-->
 		</header>
 		<section>
+			<div class="menu-trigger"></div>
+			<div style='background: #212121 url("../img/works/ynlogo.png") no-repeat 50% 50%; height: 192px;' id="main-content-head"></div>
 			<div style="background: #0095FF;" class="top-border"></div>
-			<div style="text-align: center; color: #0095FF;" id="main-content-head">
-				<a class="title">BLOG</a>
+			<div style="text-align: center;" id="main-content-head-2">
+				<div id="header">
+					<nav class="navigation">
+						<ul>
+							<li><a class="pc-menu scroll-link" href="#top">TOP</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html">HOME</a></li>
+							<li><a class="pc-menu scroll-link" href="#">BLOG</a></li>
+							<li><a class="pc-menu scroll-link" href="../works/index.html">WORKS</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html#profile">ABOUT</a></li>
+						</ul>
+					</nav>
+					<nav class="navigation-blocked">
+						<ul>
+							<li><a class="pc-menu scroll-link" href="#top">TOP</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html">HOME</a></li>
+							<li><a class="pc-menu scroll-link" href="#">BLOG</a></li>
+							<li><a class="pc-menu scroll-link" href="../works/index.html">WORKS</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html#profile">ABOUT</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			</div>
 			</div>
 			<div id="main-content">
-				<h1>Yusatsu Nao's Blog</h1>
-				In this page you can see the list of post I already made. If there is something you want look for try type the keyword inside the input box below and the results will out.<br/><br/>
-				<div id="searchinput">
-					<input type="text" id="searchbox" onkeyup="myFunction()" placeholder="Search blog posts..." title="Type in a title">
-				</div>
-				<ul id="postlist">
-					<li class="blog"><a id="link-1" href="#">001 : <span id="date-1">N/A</span><br/><span id="title-1">N/A</span></a></li>
-					<li class="lt"  ><a id="link-2" href="#">002 : <span id="date-2">N/A</span><br/><span id="title-2">N/A</span></a></li>
-					<li class="blog"><a id="link-3" href="#">003 : <span id="date-3">N/A</span><br/><span id="title-3">N/A</span></a></li>
-					<li class="ar"  ><a id="link-4" href="#">004 : <span id="date-4">N/A</span><br/><span id="title-4">N/A</span></a></li>
-					<li class="lt"  ><a id="link-5" href="#">005 : <span id="date-5">N/A</span><br/><span id="title-5">N/A</span></a></li>
-					<li class="ai"  ><a id="link-6" href="#">006 : <span id="date-6">N/A</span><br/><span id="title-6">N/A</span></a></li>
-					<li class="lt"  ><a id="link-7" href="#">007 : <span id="date-7">N/A</span><br/><span id="title-7">N/A</span></a></li>
-					<li class="blog"><a id="link-8" href="#">008 : <span id="date-8">N/A</span><br/><span id="title-8">N/A</span></a></li>
-					<li class="ai"  ><a id="link-9" href="#">009 : <span id="date-9">N/A</span><br/><span id="title-9">N/A</span></a></li>
-					<li class="lt"  ><a id="link-10" href="#">010 : <span id="date-10">N/A</span><br/><span id="title-10">N/A</span></a></li>
-					<li class="lt"  ><a id="link-11" href="#">011 : <span id="date-11">N/A</span><br/><span id="title-11">N/A</span></a></li>
-					<li class="lt"  ><a id="link-12" href="#">012 : <span id="date-12">N/A</span><br/><span id="title-12">N/A</span></a></li>
-					<li class="ar"  ><a id="link-13" href="#">013 : <span id="date-13">N/A</span><br/><span id="title-13">N/A</span></a></li>
-				</ul>
-				<script>
-				function myFunction() {
-					var input, filter, ul, li, a, i;
-					input = document.getElementById("searchbox");
-					filter = input.value.toUpperCase();
-					ul = document.getElementById("postlist");
-					li = ul.getElementsByTagName("li");
-					for (i = 0; i < li.length; i++) {
-						a = li[i].getElementsByTagName("a")[0];
-						if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-							li[i].style.display = "";
-						} else {
-							li[i].style.display = "none";
+				<div class="under_main-content">
+					<h1>Yusatsu Nao's Blog</h1>
+					In this page you can see the list of post I already made. If there is something you want look for try type the keyword inside the input box below and the results will out.<br/><br/>
+					<div id="searchinput">
+						<input type="text" id="searchbox" onkeyup="myFunction()" placeholder="Search blog posts..." title="Type in a title">
+					</div>
+					<ul id="postlist">
+						<!--
+						<li class="blog"><a id="link-1" href="#">001 : <span id="date-1">N/A</span><br/><span id="title-1">N/A</span></a></li>
+						<li class="lt"  ><a id="link-2" href="#">002 : <span id="date-2">N/A</span><br/><span id="title-2">N/A</span></a></li>
+						<li class="blog"><a id="link-3" href="#">003 : <span id="date-3">N/A</span><br/><span id="title-3">N/A</span></a></li>
+						<li class="ar"  ><a id="link-4" href="#">004 : <span id="date-4">N/A</span><br/><span id="title-4">N/A</span></a></li>
+						<li class="lt"  ><a id="link-5" href="#">005 : <span id="date-5">N/A</span><br/><span id="title-5">N/A</span></a></li>
+						<li class="ai"  ><a id="link-6" href="#">006 : <span id="date-6">N/A</span><br/><span id="title-6">N/A</span></a></li>
+						<li class="lt"  ><a id="link-7" href="#">007 : <span id="date-7">N/A</span><br/><span id="title-7">N/A</span></a></li>
+						<li class="blog"><a id="link-8" href="#">008 : <span id="date-8">N/A</span><br/><span id="title-8">N/A</span></a></li>
+						<li class="ai"  ><a id="link-9" href="#">009 : <span id="date-9">N/A</span><br/><span id="title-9">N/A</span></a></li>
+						<li class="lt"  ><a id="link-10" href="#">010 : <span id="date-10">N/A</span><br/><span id="title-10">N/A</span></a></li>
+						<li class="lt"  ><a id="link-11" href="#">011 : <span id="date-11">N/A</span><br/><span id="title-11">N/A</span></a></li>
+						<li class="lt"  ><a id="link-12" href="#">012 : <span id="date-12">N/A</span><br/><span id="title-12">N/A</span></a></li>
+						<li class="ar"  ><a id="link-13" href="#">013 : <span id="date-13">N/A</span><br/><span id="title-13">N/A</span></a></li>
+						-->
+					</ul>
+					<script>
+					function myFunction() {
+						var input, filter, ul, li, a, i;
+						input = document.getElementById("searchbox");
+						filter = input.value.toUpperCase();
+						ul = document.getElementById("postlist");
+						li = ul.getElementsByTagName("li");
+						for (i = 0; i < li.length; i++) {
+							a = li[i].getElementsByTagName("a")[0];
+							if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+								li[i].style.display = "";
+							} else {
+								li[i].style.display = "none";
+							}
 						}
 					}
-				}
-				</script>
+					</script>
+				</div>
 			</div>
 			<div style="background: #0095FF;" class="bottom-border"></div>
 		</section>
@@ -84,7 +124,7 @@
 		</footer>
 		<!-- Afterload script & css-->
 		<script src="../js/jquery.min.js"></script>
-		<script src="../js/blogdata.json"></script>
-		<script src="../js/blogdata.js"></script>
+		<script src="../js/common_navigation_enable_scroll.js"></script>	
+		<script src="../js/common_homeloader_blogpost.js"></script>
 	</body>
 </html>

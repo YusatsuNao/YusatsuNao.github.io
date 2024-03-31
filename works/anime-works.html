@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="../css/ui-works.css">
 		<style>
 			#main-content-body {
-				max-width: 75rem;
+				max-width: -webkit-fill-available;
 				padding: 0rem 0rem;
 				font-size: 1.1rem;
 				background: rgba(255, 255, 255, 0.8);
@@ -27,27 +27,46 @@
 				background-position: left center;
 				background-repeat: no-repeat;
 				padding-left: 20px; /* or size of icon + spacing */ }
+			#main-content-head-2 {
+				padding: 0rem;
+			}
+			.navigation, .navigation-blocked {
+				padding: 13px 0px 13px 0px;
+			}
+			.navigation {
+				display: none;
+			}
 		</style>
 	</head>
 	<!-- Front Page Content -->
 	<body>
-		<header>
-			<!-- Menu System Mobile -->		 
-			<div id="circularMenu" class="circular-menu">
-				<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
-					<span id="menu-logo"></span>
-				</a>
-				<div class="items-wrapper">
-					<a href="../index" class="item">Home</a>
-					<a href="../blog" class="item">Blog</a>
-					<a href="../works" class="item">Works</a>
-					<a href="../about" class="item">About</a>
-				</div>
-			</div>
+		<header id="top">
 		</header>
 		<section>
 			<div style="background: #ffa700;" class="top-border"></div>
 			<div style='background: #ffa700 url("../img/works/anime-works.png") no-repeat 50% 50%; height: 100px;' id="main-content-head" class="line"></div>
+			<div style="text-align: center;" id="main-content-head-2">
+				<div id="header">
+					<nav class="navigation">
+						<ul>
+							<li><a class="pc-menu scroll-link" href="#top">TOP</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html">HOME</a></li>
+							<li><a class="pc-menu scroll-link" href="../blog/index.html">BLOG</a></li>
+							<li><a class="pc-menu scroll-link" href="index.html">WORKS</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html#profile">ABOUT</a></li>
+						</ul>
+					</nav>
+					<nav class="navigation-blocked">
+						<ul>
+							<li><a class="pc-menu scroll-link" href="#top">TOP</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html">HOME</a></li>
+							<li><a class="pc-menu scroll-link" href="../blog/index.html">BLOG</a></li>
+							<li><a class="pc-menu scroll-link" href="index.html">WORKS</a></li>
+							<li><a class="pc-menu scroll-link" href="../index.html#profile">ABOUT</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 			<div id="main-content-body">
 				<div class="button-aw">
 					<h1>Anime Works</h1>
@@ -56,11 +75,11 @@
 				</div>
 				<div class="button-aw">
 					<ul class="tab">
-						<li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'download1')" id="defaultOpen">#1</a></li>
-						<li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'download2')">#2</a></li>
-						<li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'download3')">#3</a></li>
-						<li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'download4')">#4</a></li>
-						<li><a href="javascript:void(0)" class="tablinks" onclick="pagetab(event, 'download5')">#5</a></li>
+						<li><a href="javascript:void(0)" class="tablinks anime_works_button" onclick="pagetab(event, 'download1')" id="defaultOpen">#1</a></li>
+						<li><a href="javascript:void(0)" class="tablinks anime_works_button" onclick="pagetab(event, 'download2')">#2</a></li>
+						<li><a href="javascript:void(0)" class="tablinks anime_works_button" onclick="pagetab(event, 'download3')">#3</a></li>
+						<li><a href="javascript:void(0)" class="tablinks anime_works_button" onclick="pagetab(event, 'download4')">#4</a></li>
+						<li><a href="javascript:void(0)" class="tablinks anime_works_button" onclick="pagetab(event, 'download5')">#5</a></li>
 					</ul>
 				</div>
 				<div class="works">
@@ -347,6 +366,7 @@
 		</footer>
 		<!-- Afterload script & css-->
 		<script src="../js/jquery.min.js"></script>
+		<script src="../js/common_navigation_enable_scroll.js"></script>	
 		<script>
 		function pagetab(evt, pagename) {
 			var i, tabcontent, tablinks;

@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<link rel="icon" type="image/png" href="img/naologo.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="canonical" href="http://chinatsuki.com/">
+		<link rel="canonical" href="http://yusatsunao.com/">
 	<!-- Front Page meta tag -->
 		<title>Yusatsu Nao</title>
 		<meta name="author" content="Yusatsu Nao">
@@ -58,17 +58,18 @@
 	</head>
 	<!-- Front Page Content -->
 	<body>
-		<header>
+		<header id="top">
 			<!-- Menu System Mobile -->			
 			<div id="circularMenu" class="circular-menu">
 				<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
 					<span id="menu-logo"></span>
 				</a>
 				<div class="items-wrapper">
-					<a href="#header" class="item">Top</a>
-					<a href="blog" class="item">Blog</a>
-					<a href="works" class="item">Works</a>
-					<a href="about" class="item">About</a>
+					<a class="item" href="#top">TOP</a>
+					<a class="item" href="#main-content-video">YOUTUBE</a>
+					<a class="item" href="#main-content-home">BLOG</a>
+					<a class="item" href="#main-content-works">WORKS</a>
+					<a class="item" href="#profile">ABOUT</a>
 				</div>
 			</div>
 			<!-- Menu System Desktop-->
@@ -80,17 +81,18 @@
 				</div>
 				<nav class="navigation">
 					<ul>
-						<li><a class="pc-menu" href="index">TOP</a></li>
-						<li><a class="pc-menu" href="blog">BLOG</a></li>
-						<li><a class="pc-menu" href="works">WORKS</a></li>
-						<li><a class="pc-menu" href="about">ABOUT</a></li>
+						<li><a class="pc-menu scroll-link" href="#top">TOP</a></li>
+						<li><a class="pc-menu scroll-link" href="#main-content-video">YOUTUBE</a></li>
+						<li><a class="pc-menu scroll-link" href="#main-content-home">BLOG</a></li>
+						<li><a class="pc-menu scroll-link" href="#main-content-works">WORKS</a></li>
+						<li><a class="pc-menu scroll-link" href="#profile">ABOUT</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="clock">
 				<div class="digital-clock">00 : 00 : 00</div>
 				<div class="day-cond">
-					<script> 
+					<script>
 						var myDate = new Date(); 
 						if ( myDate.getHours() >= 00 )  
 						{ document.write("AM"); } 
@@ -101,63 +103,46 @@
 			</div>
 		</header>
 		<section id="homepage">
-			<div class="headline">
-				<div class="blogfeed" id="bn6">
-					<div class="blogfeed-title">
-						<h2>Blog Post</h2>
-						<span></span>
+			<div id="main-content-video">
+				<div class="video_profile_header">
+					<div class="video_profile">
+						<img class="youtube_image" src="img/thumb/profile.jpg">
+						<a class="youtube_title" href="https://youtube.com/yusatsunao">Yusatsu Nao</a>
+						<span class="youtube_handle">@yusatsunao・2.7K subscribers・112 videos</span>
+						<span class="youtube_subs">Subscribe</span>
 					</div>
-					<ul>
-						<li><a id="link-3" href="#"><span id="date-3">N/A</span> | <b><span id="title-3">N/A</span></b></a></li>
-						<li><a id="link-2" href="#"><span id="date-2">N/A</span> | <b><span id="title-2">N/A</span></b></a></li>
-						<li><a id="link-1" href="#"><span id="date-1">N/A</span> | <b><span id="title-1">N/A</span></b></a></li>
-					</ul>
-					<div class="blogfeed-navigation">
-						<span></span>
-						<span></span>
+					<div class="video_profile_a">
+						<h1>Latest Youtube Videos</h1>
+						<span class="youtube_check">Check More Videos</span>
 					</div>
 				</div>
+				<div class="video new"></div>
+				<div class="video pop"></div>
 			</div>
 			<div id="main-content-home">
-				<div class="post">
-					<figure class="post-item" onClick="location.href='blog/post13-girls-frontline-assistant-rainmeter-released'">
-						<img src="img/blog/p13.png" alt="Yusatsu Nao, yusatsu nao"/>
-						<figcaption>
-							<h2>RAINMETER SKINS - Girls Frontline Assistant Released</h2>
-							<p><span id="podc-3"></span></p>
-							<p>Thursday, March 28, 2019</p>
-							<a href="blog/post13-girls-frontline-assistant-rainmeter-released"></a>
-						</figcaption>	
-					</figure>
-					<figure class="post-item" onClick="location.href='blog/post12-new-line-theme-with-low-price'">
-						<img src="img/blog/p12.png" alt="Yusatsu Nao, yusatsu nao"/>
-						<figcaption>
-							<h2>New Line Theme with Low Price</h2>
-							<p><span id="podc-2"></span></p>
-							<br/>
-							<p>Wednesday, January 10, 2018</p>
-							<a href="blog/post12-new-line-theme-with-low-price"></a>
-						</figcaption>	
-					</figure>
-					<figure class="post-item" onClick="location.href='blog/post11-glowing-fragment-scarlet-land-line-theme-released'">
-						<img src="img/blog/p11.png" alt="Yusatsu Nao, yusatsu nao"/>
-						<figcaption>
-							<h2>LINE THEME - Glowing Fragment Scarlet Land Released</h2>
-							<p><span id="podc-1"></span></p>
-							<p>Saturday, July 22, 2017</p>
-							<a href="blog/post11-glowing-fragment-scarlet-land-line-theme-released"></a>
-						</figcaption>	
-					</figure>
-				</div>
+				<h1 class="blog_title">Catch up with the latest blog post</h1>
+				<div class="blog"></div>
 				<div class="see">
-					<h3><a href="blog">《 SEE MORE POST 》</a></h3>
+					<button onclick="openLink('blog')">SEE MORE POST</button>
 				</div>
 			</div>
-			<div id="main-content-social">
-				<div class="social">
-					<div class="content">
-						<a class="twitter-timeline" data-width="550" data-height="600" data-theme="dark" href="https://twitter.com/yusatsunao">Tweets by yusatsunao</a><script async src="//platform.twitter.com/widgets.js"></script>
-					</div>
+			<div id="main-content-works">
+				<h1 class="works_title">Works</h1>
+				<div class="works">
+					<div onclick="openLink('works/anime-works.html')" class="works_item">
+						<img src="../img/works/icon_aw.png"></div>
+					<div onclick="openLinkrel('http://deviantart.com/yusatsunao')" class="works_item">
+						<img src="../img/works/icon_da.png"></div>
+					<div onclick="openLink('works/line-works.html')" class="works_item">
+						<img src="../img/works/icon_line.png"></div>
+						<!--
+					<div onclick="openLink('#')" class="works_item">
+						<img src="../img/works/icon_no.png"></div>
+					<div onclick="openLink('#')" class="works_item">
+						<img src="../img/works/icon_no.png"></div>
+					<div onclick="openLink('#')" class="works_item">
+						<img src="../img/works/icon_no.png"></div>
+						-->
 				</div>
 			</div>
 			<div id="profile">
@@ -166,23 +151,37 @@
 						<img alt="author" src="img/naologo.png"/>
 		  			</div>
 	  				<div class="about">
-						<h1>Yusatsu Nao's Official Site</h1>
-		  				<div class="summary">Welcome to my official site, my name is <b>Yusatsu Nao</b>. I create and own this site, I make a lot of things. well, not many but I will post my works in this site, you can check my works on works page you can click on the navigation above. All of ideas I have, I pour it in visual form. I hope you like what I make and edit. Follow me on <b>Facebook Fanpage</b>, Twitter and <b>LINE@ Official Account</b> ( if you have a LINE Account ) go to "About" page to see the links.
+						<h1>Yusatsu Nao</h1>
+		  				<div class="summary">
+							Hello, and welcome to my personal site. My name is <b>Yusatsu Nao</b> or <b>Farise</b>, or just call me whatever you like.
+							<br/>
+							I'm from ASIA more precisely, SEA, yeah a SEA, you know the blue big mass of water―――.<br/>
+							Аnyway, In this website I pretty much post stuff I made/edited for all these years, whether it's a Youtube Video/Rainmeter Skins/Icons/Design etc, because I love editing stuff like Image/Program/Scripts or whatever I can edit/make and then I post it here, and Videos/Skins/Icons above is just a few of stuff I edited.<br/><br/>
+							I created this site back in 2015 and now still being updated and you can see my latest works above or check <b>SHOW MORE/SEE MORE</b> button to see more stuff. Well, this site is pretty simple because it's just a github pages, probably I'm going to change it to an official site later on, but for now just like this, in github. but anyway, if you want to follow me you can check my three social media/sites below.
+							<br/><br/><br/>
+							Also here are the links for the image/artist used in this page,<br/>
+							Pixiv ID : ぺい/ティアす-07a > <a href="https://www.pixiv.net/member.php?id=1883190" rel="nofollow">https://www.pixiv.net/member.php?id=1883190</a>
+							<br/>
+							Pixiv ID : フェイトリネ - アルファ > <a href="https://www.pixiv.net/member.php?id=952566" rel="nofollow">https://www.pixiv.net/member.php?id=952566</a>
+							<br/>
+							Pixiv ID : mocha＠ティア【そ11a】 > <a href="https://www.pixiv.net/member.php?id=648285" rel="nofollow">https://www.pixiv.net/member.php?id=648285</a>
+							<br/>
+							Pixiv ID : Ryosuke > <a href="https://www.pixiv.net/member.php?id=1148741" rel="nofollow">https://www.pixiv.net/member.php?id=1148741</a>
+							<br/>
+							Pixiv ID : mks > <a href="https://www.pixiv.net/member.php?id=750220" rel="nofollow">https://www.pixiv.net/member.php?id=750220</a>
+							<br/>
+							Pixiv ID : ゲン助 > <a href="https://www.pixiv.net/member.php?id=32008" rel="nofollow">https://www.pixiv.net/member.php?id=32008</a>
+							<br/>
+							Pixiv ID : ツジキ > <a href="https://www.pixiv.net/member.php?id=15568" rel="nofollow">https://www.pixiv.net/member.php?id=15568</a>
 		  				</div>
 	  				</div>
 				</div>
 			</div>
 			<div id="contact">
-				<div class="contact-button">
-					<div class="contact-facebook">
-						<a class="icon-facebook" id="facebook" href="https://www.facebook.com/yusatsunao/" target="_blank"></a>
-					</div>
-					<div class="contact-twitter">
-						<a class="icon-twitter" id="twitter" href="https://twitter.com/yusatsunao" target="_blank"></a>
-					</div>
-					<div class="contact-line">
-						<a class="icon-line" id="line" href="http://line.me/R/ti/p/%40gtt8221m" target="_blank"></a>
-					</div>
+				<div class="contact-list">				
+					<div class="contact" id="contact-twitter" onclick="openLinkrel('http://twitter.com/yusatsunao')"></div>
+					<div class="contact" id="creator-deviantart" onclick="openLinkrel('http://deviantart.com/yusatsunao')"></div>
+					<div class="contact" id="creator-youtube" onclick="openLinkrel('https://www.youtube.com/yusatsunao')"></div>
 				</div>
 			</div>
 		</section>
@@ -192,51 +191,11 @@
 		</div>
 		<!-- Afterload script & css-->
 		<script src="js/jquery.min.js"></script>
-		<script src="js/blogdatalast.js"></script>
-		<script src="js/blogfeed.js"></script>
-		<script>
-			$(window).load(function(e) {
-				$("#bn6").breakingNews({
-					effect	  :"slide",
-					autoplay	: true,
-					timer	   : 4000,
-					color	   :'purple'
-				});
-			});
-		</script>
-		<script>
-			$(document).ready(function() {
-				clockUpdate();
-				setInterval(clockUpdate, 1000);
-			})
-
-			function clockUpdate() {
-				var date = new Date();
-				$('.digital-clock').css({'color': '#fff', 'text-shadow': '0 0 6px #000'});
-				function addZero(x) {
-				if (x < 10) {
-				return x = '0' + x;
-				}
-				else {
-					return x;
-				}
-			}
-
-			function twelveHour(x) {
-				if (x > 12) {
-					return x = x - 12;
-				} else if (x == 0) {
-					return x = 12;
-				} else {
-					return x;
-				}
-			}
-
-			var h = addZero(date.getHours());
-			var m = addZero(date.getMinutes());
-			var s = addZero(date.getSeconds());
-
-			$('.digital-clock').text(h + ':' + m + ':' + s) }
-		</script>
+		<script src="js/common_navigation_enable_scroll.js"></script>
+		<script src="js/common_homeclock.js"></script>
+		<script src="js/common_link.js"></script>
+		<script src="js/common_homeloader_youtube.js"></script>
+		<script src="js/common_homeloader_youtube_popular.js"></script>
+		<script src="js/common_homeloader_blog.js"></script>
 	</body>
 </html>

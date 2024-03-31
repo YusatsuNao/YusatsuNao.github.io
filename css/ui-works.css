@@ -96,22 +96,26 @@ ul.tab {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1; }
+    border: 1px solid #303030;
+    background-color: #222222; }
 ul.tab li {
 	float: left; }
-ul.tab li a {
+ul.tab li a.anime_works_button, ul.tab li a.line_works_button {
     display: inline-block;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
+	font-weight: 800;
     font-size: 17px; }
+ul.tab li a.anime_works_button {
+    color: #ffa700; }
+ul.tab li a.line_works_button {
+    color: #00B900; }
 ul.tab li a:hover {
-    background-color: #ddd; }
+    background-color: #484848; }
 ul.tab li a:focus, .active {
-    background-color: #ccc; }
+    background-color: #181818; }
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -119,7 +123,7 @@ ul.tab li a:focus, .active {
 .help {
 	text-align: justify; }
 .line {
-	border-bottom: 3px solid #FFFFFF; }
+	border-bottom: 0px solid #FFFFFF; }
 #anime-icon {
 	border-collapse: collapse;
 	width: 90%;
@@ -203,6 +207,262 @@ ul.tab li a:focus, .active {
 	font-weight: 400;
 	line-height: 22px;
 	font-size: 14px; }
+
+
+.grid_item_list {
+	margin: 0%;
+	width: max-content;
+	height: -webkit-fill-available; }
+.image-grid, .blog, .video, .works {
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	flex-wrap: wrap;
+	padding: 1%; }
+.image-grid:before { /* placeholder */ }
+.card {
+	width: 270px;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.32);
+	cursor: pointer;
+	position: relative;
+	transform-origin: center;
+	transition: all 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	margin: 8px 8px 8px 8px; }
+.card:last-child {
+	margin: 8px 8px 8px 8px; }
+.card:hover {
+	transform: scale(1.05); }
+.card .grid_content {
+	padding: 40px 24px 48px 24px;
+	position: relative; }
+.card .grid_content h1, .card .grid_content p {
+	transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+.card .grid_content h1.copy, .card .grid_content p.copy {
+	margin: 5px 0 0 0; }
+.card.split {
+	height: 360px;
+	background: rgba(22, 22, 22, 0.8); }
+.card.split:before {
+	content: "";
+	width: 100%;
+	height: 0;
+	background: #f3f3f3;
+	position: absolute;
+	bottom: 0;
+	transform-origin: bottom;
+	transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1); }
+.card.split:hover:before {
+	height: 277px; }
+.card.split .image-banner {
+	display: block;
+	position: relative; }
+.card.split .image-banner img {
+	width: 100%;
+	height: auto; }
+.card.full.video_post { /* placeholder */ 
+	background: #161616;
+	overflow: hidden;
+	min-width: 420px;
+	min-height: 236px; }
+.card.full.blog_post { /* placeholder */ 
+	background: #161616;
+	overflow: hidden;
+	min-width: 360px;
+	min-height: 360px; }
+.card.full.video_post .grid_content {
+	position: absolute;
+	z-index: 2;
+	bottom: 10px;
+	padding: 0 12px;
+	transition: all 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	min-width: -webkit-fill-available;
+	height: fot-content;
+	text-align: left; }
+.card.full.blog_post .grid_content {
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	padding: 0 12px;
+	transition: all 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	min-width: -webkit-fill-available;
+	min-height: 90px;
+	text-align: left; }
+.card.full:hover .grid_content {
+	bottom: 20px; }
+.card.full .image-banner {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%); }
+.card.full.video_post .image-banner img {
+	height: 236px;
+	max-width: fit-content; }
+.card.full .image-banner img {
+	height: 360px;
+	max-width: fit-content; }
+.grid-over-bg {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(20, 20, 20) 100%);
+	position: absolute;
+	z-index: 1;
+	left: 0px; }
+p.copy {
+	background: rgb(0 135 255 / 80%);
+	padding: 2px 5px 2px 5px;
+	border-radius: 0px 0px 5px 0px;
+	font-family: "Titillium Web", sans-serif;
+	top: -14px;
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	font-weight: 800;
+	color: #fff;
+	font-size: 14px; }
+.title_divider {
+	width: 5px;
+	position: absolute;
+	background: rgb(0 135 255 / 90%);
+	height: -webkit-fill-available; }	
+.video_profile_header {
+	width: 1280px;
+	margin: 0px auto;
+	height: 100px;
+}
+.video_profile {
+	width: 500px;
+	height: 64px;
+	position: relative;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	border-radius: 15px;
+	background: #222;
+	z-index: 3;
+}
+.video_profile_a {
+	left: 495px;
+	width: 225px;
+	height: 60px;
+	position: relative;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	border-radius: 10px;
+	background: #31353D;
+	top: -82px;
+	z-index: 2;
+}
+.video_profile_a h1 {
+	font-size: 20px;
+	position: relative;
+	left: 30px;
+	width: 195px;
+	font-weight: 500;
+	margin: 0px;
+	top: -2px;
+}
+.youtube_image {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	border-radius: 32px;
+	margin-left: 5px;
+}
+.youtube_title {
+	top: 12px;
+	position: absolute;
+	left: 95px;
+	font-size: 24px;
+	font-weight: 800;
+	color: #fff;
+}
+a.youtube_title {
+	top: 12px;
+	position: absolute;
+	left: 95px;
+	font-size: 24px;
+	font-weight: 800;
+	color: #fff;
+}
+a.youtube_title:hover {
+	color: rgb(51 159 255);
+}
+.youtube_handle {
+	top: 44px;
+	position: absolute;
+	left: 95px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+}
+.youtube_subs {
+	right: 17px;
+	position: absolute;
+	background: #ff0000;
+	padding: 7px 13px;
+	font-weight: 800;
+	border-radius: 10px;
+	margin: 0px auto;
+	top: 23px;
+}
+.youtube_check {
+	left: 55px;
+	position: absolute;
+	background: #7077A1;
+	padding: 2px 14px;
+	font-weight: 800;
+	border-radius: 5px;
+	color: #222;
+	margin: 0px auto;
+	top: 42px;
+}
+.youtube_subs:hover {
+	background: #ff3030;				
+}
+.youtube_check:hover {
+	background: #474F7A;				
+}
+.blog_title, .works_title {
+	position: relative;
+	background: #222222;
+	padding: 10px 14px;
+	font-weight: 800;
+	border-radius: 10px;
+	color: #fff;
+	margin: 0px auto;
+	top: 0px;
+	width: 400px;
+	margin-bottom: 20px;
+}
+.works_title {
+	margin-bottom: 50px;
+}
+.works {
+	display: flex;
+	margin: 0px auto;
+	width: fit-content;
+}
+.works_item {
+	width: 240px;
+	height: 100%;
+	padding: 20px;
+	border: 5px solid transparent;
+	margin: 5px;
+}
+.works_item:hover {
+	width: 240px;
+	height: 100%;
+	border: 5px solid #444e83;
+	border-radius: 20px;
+	background: #252d57;
+}
 
 /* LINE WORKS */
 .coins {

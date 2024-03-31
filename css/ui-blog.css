@@ -31,8 +31,14 @@ h3 {
 #main-content blockquote a:hover {
 	color: #F92672; }
 #main-content {
-	max-width: 69rem;
-	padding: 2rem 3rem; }
+	max-width: -webkit-fill-available;
+	padding: 2rem 3rem;
+	background: rgba(22,22,22,0.9);
+    text-align: Justify;
+    color: #fff !important; }
+#main-content-child {
+	width: 69%;
+    margin: 0px auto; }
 
 /* Search Page CSS */
 #searchbox {
