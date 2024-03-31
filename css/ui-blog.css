@@ -58,19 +58,19 @@ h3 {
 	padding: 0;
 	margin: 0; }
 #postlist li a {
-	border: 1px solid #ddd;
+	border: 1px solid #222;
 	margin-top: -1px; /* Prevent double borders */
-	background-color: #f6f6f6;
+	background-color: #303030;
 	padding: 12px;
 	text-decoration: none;
 	font-size: 18px;
-	color: black;
+	color: white	;
 	display: block }
 #postlist li a.header {
 	background-color: #e2e2e2;
 	cursor: default; }
 #postlist li a:hover:not(.header) {
-	background-color: #eee; }
+	background-color: #222; }
 #searchinput {
 	width: 100%; }
 .blog {
