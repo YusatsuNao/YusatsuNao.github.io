@@ -16,53 +16,14 @@
 		<meta property="og:title" content="Yusatsu Nao's Launch Page">
 		<meta property="og:type" content="Personal Website">
 		<meta property="og:description" content="Yusatsu Nao's official Site. Everything that I made or edited, I put it in this personal website. From windows icons, rainmeter, skins, wallpaper, youtube videos and etc.">
-		<meta property="og:image" content="https://yusatsunao.github.io/img/og/index.jpg">
+		<meta property="og:image" content="https://yusatsunao.github.io/img/yn.png">
 		<meta property="og:url" content="https://yusatsunao.github.io/">
 		<meta property="og:site_name" content="Yusatsu Nao's Official Website">
 		<meta property="og:locale" content="en_US">
 	<!-- Front Page script & css-->
 		<link rel="stylesheet" href="css/server.css">
 		<link rel="stylesheet" href="css/ui-home.css">
-		<script>
-			day=new Date()	 //..get the date
-			x=day.getHours()	//..get the hour
-			if(x>=0 && x<4) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/night_b.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
-			} else
-			if(x>=4 && x<5) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/night_c.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
-			} else
-			if(x>=5 && x<7) {
-			document.write('<style type="text/css">body {background: transparent url(img/background/sunrise.jpg) fixed no-repeat 50% 100% / cover; }</style>')
-			} else
-			if(x>=7 && x<9) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/morning_a.jpg) fixed no-repeat 50% 50% / cover; }</style>')
-			} else
-			if(x>=9 && x<11) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/morning_b.jpg) fixed no-repeat 50% 50% / cover; }</style>')
-			} else
-			if (x>=11 && x<13) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/noon.jpg) fixed no-repeat 50% 50% / cover; }</style>')
-			}
-			if (x>=13 && x<14) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/afternoon_a.jpg) fixed no-repeat 50% 50% / cover; }</style>')
-			}
-			if (x>=14 && x<16) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/afternoon_b.jpg) fixed no-repeat 50% 50% / cover; }</style>')
-			}
-			if (x>=16 && x<18) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/sunset_a.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
-			}
-			if (x>=18 && x<19) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/sunset_b.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
-			}
-			if (x>=19 && x<22) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/evening.jpg) fixed no-repeat 50% 35% / cover; } .navigation { background: transparent; }</style>')
-			}
-			if (x>=22 && x<24) {
-			document.write('<style type="text/css">body { background: transparent url(img/background/night_a.jpg) fixed no-repeat 50% 50% / cover; } .navigation { background: transparent; }</style>')
-			}
-		</script>
+		<script src="js/common_home_background.js"></script>
 	</head>
 	<!-- Front Page Content -->
 	<body>
@@ -140,11 +101,13 @@
 				<h1 class="works_title">Works</h1>
 				<div class="works">
 					<div onclick="openLink('works/anime-works.html')" class="works_item">
-						<img src="../img/works/icon_aw.png" alt="Anime Works Icon"></div>
+						<img src="img/works/icon_aw.png" alt="Anime Works Icon"></div>
 					<div onclick="openLinkrel('http://deviantart.com/yusatsunao')" class="works_item">
-						<img src="../img/works/icon_da.png" alt="DeviantArt Icon"></div>
+						<img src="img/works/icon_da.png" alt="DeviantArt Icon"></div>
 					<div onclick="openLink('works/line-works.html')" class="works_item">
-						<img src="../img/works/icon_line.png" alt="LINE Works Icon"></div>
+						<img src="img/works/icon_line.png" alt="LINE Works Icon"></div>
+					<div onclick="openLink('https://github.com/yusatsunao')" class="works_item">
+						<img src="img/works/icon_github.png" alt="Github Icon"></div>
 						<!--
 					<div onclick="openLink('#')" class="works_item">
 						<img src="../img/works/icon_no.png"></div>
@@ -189,7 +152,7 @@
 			</div>
 			<div id="contact">
 				<div class="contact-list">				
-					<div class="contact" id="contact-twitter" onclick="openLinkrel('http://twitter.com/yusatsunao')"></div>
+					<div class="contact" id="contact-twitter" onclick="openLinkrel('http://x.com/yusatsunao')"></div>
 					<div class="contact" id="creator-deviantart" onclick="openLinkrel('http://deviantart.com/yusatsunao')"></div>
 					<div class="contact" id="creator-youtube" onclick="openLinkrel('https://www.youtube.com/yusatsunao')"></div>
 				</div>

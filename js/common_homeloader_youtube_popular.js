@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				</div>
 				<span class="grid-over-bg"></span>
 				<div class="image-banner">
-					<img src="${item.image}" alt="Yusatsu Nao, yusatsu nao"/>
+					<img src="img/thumb/${item.image}" alt="Yusatsu Nao, yusatsu nao"/>
 				</div>
 			`;
 
